@@ -1,0 +1,108 @@
+           
+           Efinix FPGA Placement and Routing.
+           Version: 2024.2.294 
+           Compiled: Nov 14 2024.
+           
+           Copyright (C) 2013 - 2024 Efinix, Inc. All rights reserved.
+
+           
+           The Tool Is Based on VPR of University of Toronto,
+           a free open source code under MIT license.
+           
+           
+INFO     : Running Placement and Routing for Family "Trion", Device "T120F324" ...
+           
+           ***** Beginning stage routing graph generation ... *****
+INFO     : Read ipin pattern from /home/dev/Downloads/efinity/2024.2/arch/./routing/ipin_oph.xml
+INFO     : Finished parsing ipin pattern file '/home/dev/Downloads/efinity/2024.2/arch/./routing/ipin_oph.xdb'.
+INFO     : Finished parsing switch_block file '/home/dev/Downloads/efinity/2024.2/arch/./routing/sb_connectivity_subset.xdb'.
+INFO     : BuildGraph process took 8.7442 seconds.
+INFO     : 	BuildGraph process took 8.26 seconds (approximately) in total CPU time.
+INFO     : BuildGraph process virtual memory usage: begin = 1350.42 MB, end = 2424.88 MB, delta = 1074.46 MB
+INFO     : BuildGraph process resident set memory usage: begin = 647.712 MB, end = 2237.66 MB, delta = 1589.94 MB
+INFO     : 	BuildGraph process peak resident set memory usage = 2237.66 MB
+INFO     : check rr_graph process took 0.288087 seconds.
+INFO     : 	check rr_graph process took 0.28 seconds (approximately) in total CPU time.
+INFO     : check rr_graph process virtual memory usage: begin = 2632.94 MB, end = 2658.94 MB, delta = 26.008 MB
+INFO     : check rr_graph process resident set memory usage: begin = 2419.8 MB, end = 2471.77 MB, delta = 51.968 MB
+INFO     : 	check rr_graph process peak resident set memory usage = 2471.77 MB
+INFO     : Generated 6657621 RR nodes and 25217347 RR edges
+INFO     : This design has 0 global control net(s). See /home/dev/Vicharak/DCT/dct_uart/outflow/dct_uart.route.rpt for details.
+INFO     : Routing graph took 9.30985 seconds.
+INFO     : 	Routing graph took 8.77 seconds (approximately) in total CPU time.
+INFO     : Routing graph virtual memory usage: begin = 1350.42 MB, end = 2658.94 MB, delta = 1308.53 MB
+INFO     : Routing graph resident set memory usage: begin = 647.152 MB, end = 2472.08 MB, delta = 1824.93 MB
+INFO     : 	Routing graph peak resident set memory usage = 2472.08 MB
+           ***** Ending stage routing graph generation *****
+           
+           ***** Beginning stage routing ... *****
+INFO     : SDC file '/home/dev/Vicharak/DCT/dct_uart/constraint.sdc' parsed successfully.
+INFO     : 1 clocks (including virtual clocks), 0 inputs and 0 outputs were constrained.
+INFO     :  ---------      -------     --------------      -------------
+INFO     :  Iteration      Overuse     Crit Path (ns)      Calc Time (s)
+INFO     :  ---------      -------     --------------      -------------
+INFO     :          1        63457              12.57               5.53
+INFO     :          2         9154              13.41               6.49
+INFO     :          3         3327              12.94               6.35
+INFO     :          4          457              13.26               6.02
+INFO     :          5           65              13.26               3.91
+INFO     :          6           11              13.26               3.91
+INFO     :          7            2              13.26               1.27
+INFO     :          8            0              13.26               0.43
+           
+INFO     : Successfully routed netlist after 8 routing iterations and 168269837 heapops
+INFO     : Completed net delay value cross check successfully.
+           ***** Beginning stage routing check ... *****
+           ***** Ending stage routing check *****
+           
+INFO     : Serial number (magic cookie) for the routing is: 467858971
+INFO     : Netlist fully routed.
+INFO     : Successfully created FPGA route file '/home/dev/Vicharak/DCT/dct_uart/outflow/dct_uart.route'
+INFO     : Routing took 36.1893 seconds.
+INFO     : 	Routing took 39.12 seconds (approximately) in total CPU time.
+INFO     : Routing virtual memory usage: begin = 2658.94 MB, end = 3088.61 MB, delta = 429.664 MB
+INFO     : Routing resident set memory usage: begin = 2472.08 MB, end = 2849.25 MB, delta = 377.168 MB
+INFO     : 	Routing peak resident set memory usage = 2849.25 MB
+           ***** Ending stage routing *****
+           
+           ***** Beginning stage final timing analysis ... *****
+INFO     : SDC file '/home/dev/Vicharak/DCT/dct_uart/constraint.sdc' parsed successfully.
+INFO     : 1 clocks (including virtual clocks), 0 inputs and 0 outputs were constrained.
+Maximum possible analyzed clocks frequency
+ Clock Name  Period (ns)  Frequency (MHz)     Edge
+    clk         13.416        74.538         (R-R)
+
+Geomean max period: 13.416
+
+Setup (Max) Clock Relationship
+  Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
+      clk              clk             16.668           3.252            (R-R)
+
+Hold (Min) Clock Relationship
+  Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
+      clk              clk             0.000            0.306            (R-R)
+
+INFO     : Write Timing Report to "/home/dev/Vicharak/DCT/dct_uart/outflow/dct_uart.timing.rpt" ...
+INFO     : final timing analysis took 0.72233 seconds.
+INFO     : 	final timing analysis took 0.72 seconds (approximately) in total CPU time.
+INFO     : final timing analysis virtual memory usage: begin = 3088.61 MB, end = 3088.61 MB, delta = 0 MB
+INFO     : final timing analysis resident set memory usage: begin = 2849.4 MB, end = 2849.72 MB, delta = 0.324 MB
+INFO     : 	final timing analysis peak resident set memory usage = 2849.72 MB
+           ***** Ending stage final timing analysis *****
+           
+           ***** Beginning stage bitstream generation ... *****
+INFO     : Reading core interface constraints file "/home/dev/Vicharak/DCT/dct_uart/outflow/dct_uart.interface.csv"
+INFO     : Successfully read core interface constraints file "/home/dev/Vicharak/DCT/dct_uart/outflow/dct_uart.interface.csv"
+INFO     : Finished writing bitstream file /home/dev/Vicharak/DCT/dct_uart/work_pnr/dct_uart.lbf.
+INFO     : Bitstream generation took 1.60254 seconds.
+INFO     : 	Bitstream generation took 1.57 seconds (approximately) in total CPU time.
+INFO     : Bitstream generation virtual memory usage: begin = 3088.61 MB, end = 3088.61 MB, delta = 0 MB
+INFO     : Bitstream generation resident set memory usage: begin = 2849.72 MB, end = 2850.68 MB, delta = 0.956 MB
+INFO     : 	Bitstream generation peak resident set memory usage = 2850.68 MB
+           ***** Ending stage bitstream generation *****
+           
+INFO     : The entire flow of EFX_PNR took 87.8434 seconds.
+INFO     : 	The entire flow of EFX_PNR took 195.13 seconds (approximately) in total CPU time.
+INFO     : The entire flow of EFX_PNR virtual memory usage: begin = 109.276 MB, end = 3088.61 MB, delta = 2979.33 MB
+INFO     : The entire flow of EFX_PNR resident set memory usage: begin = 35.1 MB, end = 2850.68 MB, delta = 2815.58 MB
+INFO     : 	The entire flow of EFX_PNR peak resident set memory usage = 2850.68 MB

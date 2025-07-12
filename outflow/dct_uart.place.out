@@ -1,0 +1,202 @@
+           
+           Efinix FPGA Placement and Routing.
+           Version: 2024.2.294 
+           Compiled: Nov 14 2024.
+           
+           Copyright (C) 2013 - 2024 Efinix, Inc. All rights reserved.
+
+           
+           The Tool Is Based on VPR of University of Toronto,
+           a free open source code under MIT license.
+           
+           
+INFO     : Running Placement and Routing for Family "Trion", Device "T120F324" ...
+           
+           ***** Beginning stage netlist pre-processing ... *****
+INFO     : Successfully Read in Verific binary Netlist dump file "/home/dev/Vicharak/DCT/dct_uart/outflow/dct_uart.vdb".
+INFO     : ***** Beginning VDB Netlist Checker ... *****
+INFO     : VDB Netlist Checker took 0.032456 seconds.
+INFO     : 	VDB Netlist Checker took 0.05 seconds (approximately) in total CPU time.
+INFO     : VDB Netlist Checker virtual memory usage: begin = 203.644 MB, end = 244.656 MB, delta = 41.012 MB
+INFO     : VDB Netlist Checker resident set memory usage: begin = 115.052 MB, end = 115.648 MB, delta = 0.596 MB
+INFO     : 	VDB Netlist Checker peak resident set memory usage = 543.888 MB
+INFO     : ***** Ending VDB Netlist Checker ... *****
+INFO     : Reading core interface constraints file "/home/dev/Vicharak/DCT/dct_uart/outflow/dct_uart.interface.csv"
+INFO     : Successfully read core interface constraints file "/home/dev/Vicharak/DCT/dct_uart/outflow/dct_uart.interface.csv"
+INFO     : Found 0 constant generator nets.
+INFO     : Pass 0: Swept away 0 nets with no fanout.
+INFO     : Pass 0: Swept away 0 blocks with no fanout.
+INFO     : Swept away 0 nets and 0 blocks in total.
+INFO     : Removed 0 LUT buffers
+INFO     : Successfully created VPR logical netlist from Verific binary DataBase file "/home/dev/Vicharak/DCT/dct_uart/outflow/dct_uart.vdb".
+INFO     : Netlist pre-processing took 0.238501 seconds.
+INFO     : 	Netlist pre-processing took 0.25 seconds (approximately) in total CPU time.
+INFO     : Netlist pre-processing virtual memory usage: begin = 203.644 MB, end = 246.704 MB, delta = 43.06 MB
+INFO     : Netlist pre-processing resident set memory usage: begin = 114.404 MB, end = 135.488 MB, delta = 21.084 MB
+INFO     : 	Netlist pre-processing peak resident set memory usage = 543.888 MB
+           ***** Ending stage netlist pre-processing *****
+           
+           ***** Beginning stage pre-packing ... *****
+           ***** Ending stage pre-packing *****
+           
+           ***** Beginning stage packing ... *****
+INFO     : Generate proto netlist for file "/home/dev/Vicharak/DCT/dct_uart/work_pnr/dct_uart.net_proto" took 0.009432 seconds
+INFO     : Creating IO constraints file '/home/dev/Vicharak/DCT/dct_uart/work_pnr/dct_uart.io_place'
+INFO     : Packing took 0.0735366 seconds.
+INFO     : 	Packing took 0.07 seconds (approximately) in total CPU time.
+INFO     : Packing virtual memory usage: begin = 246.704 MB, end = 246.704 MB, delta = 0 MB
+INFO     : Packing resident set memory usage: begin = 136.188 MB, end = 136.624 MB, delta = 0.436 MB
+INFO     : 	Packing peak resident set memory usage = 543.888 MB
+           ***** Ending stage packing *****
+           
+INFO     : Read proto netlist file /home/dev/Vicharak/DCT/dct_uart/work_pnr/dct_uart.net_proto
+INFO     : Read proto netlist for file "/home/dev/Vicharak/DCT/dct_uart/work_pnr/dct_uart.net_proto" took 0.004713 seconds
+INFO     : Setup net and block data structure took 0.547745 seconds
+           ***** Beginning stage packed netlist loading ... *****
+INFO     : Read proto netlist file /home/dev/Vicharak/DCT/dct_uart/work_pnr/dct_uart.net_proto
+INFO     : Read proto netlist for file "/home/dev/Vicharak/DCT/dct_uart/work_pnr/dct_uart.net_proto" took 0.003499 seconds
+INFO     : Setup net and block data structure took 0.445327 seconds
+INFO     : Packed netlist loading took 0.452364 seconds.
+INFO     : 	Packed netlist loading took 0.45 seconds (approximately) in total CPU time.
+INFO     : Packed netlist loading virtual memory usage: begin = 442.888 MB, end = 442.888 MB, delta = 0 MB
+INFO     : Packed netlist loading resident set memory usage: begin = 333.964 MB, end = 333.964 MB, delta = 0 MB
+INFO     : 	Packed netlist loading peak resident set memory usage = 543.888 MB
+           ***** Ending stage packed netlist loading *****
+           
+           ***** Beginning stage pre-placement ... *****
+           
+           ***** Ending stage pre-placement *****
+           
+INFO     : SDC file '/home/dev/Vicharak/DCT/dct_uart/constraint.sdc' parsed successfully.
+INFO     : 1 clocks (including virtual clocks), 0 inputs and 0 outputs were constrained.
+           ***** Beginning stage initial placement ... *****
+INFO     : Reading core interface constraints file "/home/dev/Vicharak/DCT/dct_uart/outflow/dct_uart.interface.csv"
+INFO     : Successfully read core interface constraints file "/home/dev/Vicharak/DCT/dct_uart/outflow/dct_uart.interface.csv"
+INFO     : Writing IO placement constraints to "/home/dev/Vicharak/DCT/dct_uart/outflow/dct_uart.interface.io"
+INFO     : Reading placement constraints from '/home/dev/Vicharak/DCT/dct_uart/outflow/dct_uart.interface.io'.
+INFO     : Reading placement constraints from '/home/dev/Vicharak/DCT/dct_uart/work_pnr/dct_uart.io_place'.
+           ***** Ending stage initial placement *****
+           
+           ***** Beginning stage placement ... *****
+INFO     : Create /home/dev/Vicharak/DCT/dct_uart/outflow/dct_uart_after_qp.qdelay
+INFO     : QPLACER STATIC DB USAGE DISABLED
+INFO     : Starting Global Placer with 10 threads ...
+            ----------     -------  --------------     -------
+             Iteration       WHPWL Worst Slack (ps) Convergence
+            ----------     -------  --------------     -------
+INFO     :           1  1189891584           10607         0.4%
+INFO     :           2   879749376           10607         1.3%
+INFO     :           3   741653376           10181         2.2%
+INFO     :           4   488222880            9459         5.7%
+INFO     :           5   168468624            8035        13.3%
+INFO     :           6    85226640            6435        20.6%
+INFO     :           7    65192176            6372        28.8%
+INFO     :           8    52803592            5949        32.3%
+INFO     :           9    48349528            5911        35.4%
+INFO     :          10    41858584            5597        35.4%
+INFO     :          11    34770676            6505        36.3%
+INFO     :          12    31785252            6209        39.0%
+INFO     :          13    30758350            5638        39.0%
+INFO     :          14    28525712            5870        40.6%
+INFO     :          15    27679886            5955        42.8%
+INFO     :          16    27293226            5755        43.3%
+INFO     :          17    26497430            6175        45.3%
+INFO     :          18    25615804            5627        47.0%
+INFO     :          19    24799072            5710        49.3%
+INFO     :          20    24297392            5631        52.3%
+INFO     :          21    23970404            5781        53.2%
+INFO     :          22    23641474            5431        54.7%
+INFO     :          23    23319290            5940        56.5%
+INFO     :          24    23038850            5936        57.9%
+INFO     :          25    22727414            5259        59.4%
+INFO     :          26    22447072            5290        61.6%
+INFO     :          27    22068518            5213        63.9%
+INFO     :          28    21779986            5054        66.1%
+INFO     :          29    21628220            5738        67.4%
+INFO     :          30    21504510            5443        68.5%
+INFO     :          31    21258786            5366        69.6%
+INFO     :          32    21213076            5333        70.5%
+INFO     :          33    21119176            5677        72.1%
+INFO     :          34    20953198            5061        73.1%
+INFO     :          35    20825112            5004        74.2%
+INFO     :          36    20726624            4841        76.1%
+INFO     :          37    20474088            4586        77.0%
+INFO     :          38    20301952            4197        78.8%
+INFO     :          39    20229796            5039        80.1%
+INFO     :          40    20207878            4960        81.2%
+INFO     :          41    20162064            4603        82.3%
+INFO     :          42    20100584            4681        83.7%
+INFO     :          43    20121048            4865        84.7%
+INFO     :          44    20147928            4717        85.7%
+INFO     :          45    20136226            4108        86.7%
+INFO     :          46    20179744            4150        87.6%
+INFO     :          47    20268944            4001        88.4%
+INFO     :          48    20316346            4092        89.3%
+INFO     :          49    20443966            3918        90.0%
+INFO     :          50    20541326            4246        90.4%
+INFO     :          51    20702922            3812        90.4%
+INFO     :          52    20760206            4101        90.8%
+INFO     :          53    20929834            4261        90.9%
+INFO     :          54    20942370            3844        91.9%
+INFO     :          55    20269566            4244        91.9%
+INFO     :          56    20407418            3920        93.2%
+INFO     :          57    20531354            3301        94.5%
+INFO     :          58    20634832            3753        95.4%
+INFO     :          59    20719186            3917        95.8%
+INFO     :          60    20834176            3801        96.0%
+INFO     :          61    20920154            3553        96.2%
+INFO     : Starting Annealer
+            ----------     -------  --------------     -------
+             Iteration       WHPWL  Delay Max (ps)     R Limit
+            ----------     -------  --------------     -------
+INFO     :           0      301005           12793        30.0
+INFO     :           1      275876           13712        28.7
+INFO     :           2      259370           13592        27.2
+INFO     :           3      249006           12513        25.6
+INFO     :           4      240998           12216        24.0
+INFO     :           5      236557           11660        22.5
+INFO     :           6      231904           11533        21.0
+INFO     :           7      228552           11592        19.5
+INFO     :           8      225418           11985        18.2
+INFO     :           9      222297           11873        16.9
+INFO     :          10      219509           12151        15.6
+INFO     :          11      217353           11496        14.4
+INFO     :          12      214984           12171        13.3
+INFO     :          13      213505           11337        12.3
+INFO     :          14      211491           11630        11.3
+INFO     :          15      210412           12035        10.4
+INFO     :          16      208555           11939         9.6
+INFO     :          17      206927           11917         8.8
+INFO     :          18      205951           11714         8.1
+INFO     :          19      204521           11400         7.4
+INFO     :          20      203092           12026         6.8
+INFO     :          21      202035           11593         6.2
+INFO     :          22      200678           11544         5.7
+INFO     :          23      199296           12022         5.2
+INFO     :          24      199274           11465         4.7
+INFO     :          25      198823           11602         4.3
+INFO     :          26      197794           11780         3.9
+INFO     :          27      197238           11840         3.6
+INFO     :          28      196223           11711         3.2
+INFO     :          29      195719           12181         3.0
+INFO     :          30      195342           11585         2.7
+INFO     :          31      194911           12252         2.4
+INFO     :          32      194696           12022         2.2
+INFO     : Counted delay computer calls: 179029
+Generate /home/dev/Vicharak/DCT/dct_uart/outflow/dct_uart_after_qp.qdelay
+INFO     : Placement successful: 23267 cells are placed
+INFO     : Peak congestion smeared over 1/4 of the chip is 0.363552 at 0,114
+INFO     : Congestion-weighted HPWL per net: 523.883
+INFO     : Post-placement cluster-level checks is successful
+INFO     : Checks is successful
+INFO     : Reading placement constraints from '/home/dev/Vicharak/DCT/dct_uart/outflow/dct_uart.qplace'.
+INFO     : Finished Realigning Types (2808 blocks needed type change)
+INFO     : Completed placement consistency check successfully.
+INFO     : Successfully created FPGA place file '/home/dev/Vicharak/DCT/dct_uart/outflow/dct_uart.place'
+INFO     : Placement took 35.9604 seconds.
+INFO     : 	Placement took 137.95 seconds (approximately) in total CPU time.
+INFO     : Placement virtual memory usage: begin = 474.576 MB, end = 1350.42 MB, delta = 875.84 MB
+INFO     : Placement resident set memory usage: begin = 366.692 MB, end = 647.008 MB, delta = 280.316 MB
+INFO     : 	Placement peak resident set memory usage = 1194.39 MB
+           ***** Ending stage placement *****
+           

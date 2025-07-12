@@ -1,0 +1,54 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2024.2.294 
+Date: Sat Jul 12 12:23:54 2025
+
+Copyright (C) 2013 - 2024 Efinix, Inc. All rights reserved.
+ 
+Family: Trion 
+Device: T120F324
+Top-level Entity Name: dct_uart
+Elapsed time for packing: 0 hours 0 minutes 0 seconds
+
+---------- Resource Summary (begin) ----------
+Inputs: 2 / 1076 (0.19%)
+Outputs: 1 / 1566 (0.06%)
+Clocks: 1 / 16 (6.25%)
+Logic Elements: 23247 / 112128 (20.73%)
+	LE: LUTs/Adders: 13965 / 112128 (12.45%)
+	LE: Registers: 13958 / 107520 (12.98%)
+Memory Blocks: 0 / 1056 (0.00%)
+Multipliers: 20 / 320 (6.25%)
+---------- Resource Summary (end) ----------
+
+
+---------- DSP Block Information (begin) ----------
+
++----------------------+-------+-------+-------+-----------+------------+-----------+------------+-----------+------------+
+|         NAME         | A_REG | B_REG | O_REG | RSTA_SYNC | RSTA_VALUE | RSTB_SYNC | RSTB_VALUE | RSTO_SYNC | RSTO_VALUE |
++----------------------+-------+-------+-------+-----------+------------+-----------+------------+-----------+------------+
+| dct/m4_1/n808_pp_0x0 | true  | true  | false |   true    |   false    |   true    |   false    |   false   |   false    |
+| dct/m4_1/n808_pp_0x1 | true  | true  | false |   true    |   false    |   true    |   false    |   false   |   false    |
+| dct/m4_1/n808_pp_1x0 | true  | true  | false |   true    |   false    |   true    |   false    |   false   |   false    |
+| dct/m4_1/n808_pp_1x1 | true  | true  | false |   true    |   false    |   true    |   false    |   false   |   false    |
+| dct/m4_2/n808_pp_0x0 | true  | true  | false |   true    |   false    |   true    |   false    |   false   |   false    |
+| dct/m4_2/n808_pp_0x1 | true  | true  | false |   true    |   false    |   true    |   false    |   false   |   false    |
+| dct/m4_2/n808_pp_1x0 | true  | true  | false |   true    |   false    |   true    |   false    |   false   |   false    |
+| dct/m4_2/n808_pp_1x1 | true  | true  | false |   true    |   false    |   true    |   false    |   false   |   false    |
+| dct/m4_3/n808_pp_0x0 | true  | true  | false |   true    |   false    |   true    |   false    |   false   |   false    |
+| dct/m4_3/n808_pp_0x1 | true  | true  | false |   true    |   false    |   true    |   false    |   false   |   false    |
+| dct/m4_3/n808_pp_1x0 | true  | true  | false |   true    |   false    |   true    |   false    |   false   |   false    |
+| dct/m4_3/n808_pp_1x1 | true  | true  | false |   true    |   false    |   true    |   false    |   false   |   false    |
+| dct/m4_4/n808_pp_0x0 | true  | true  | false |   true    |   false    |   true    |   false    |   false   |   false    |
+| dct/m4_4/n808_pp_0x1 | true  | true  | false |   true    |   false    |   true    |   false    |   false   |   false    |
+| dct/m4_4/n808_pp_1x0 | true  | true  | false |   true    |   false    |   true    |   false    |   false   |   false    |
+| dct/m4_4/n808_pp_1x1 | true  | true  | false |   true    |   false    |   true    |   false    |   false   |   false    |
+| dct/m4_5/n808_pp_1x1 | true  | true  | false |   true    |   false    |   true    |   false    |   false   |   false    |
+| dct/m4_5/n808_pp_1x0 | true  | true  | false |   true    |   false    |   true    |   false    |   false   |   false    |
+| dct/m4_5/n808_pp_0x1 | true  | true  | false |   true    |   false    |   true    |   false    |   false   |   false    |
+| dct/m4_5/n808_pp_0x0 | true  | true  | false |   true    |   false    |   true    |   false    |   false   |   false    |
++----------------------+-------+-------+-------+-----------+------------+-----------+------------+-----------+------------+
+
+----------- DSP Block Information (end) ----------
+
+Elapsed time for placement: 0 hours 0 minutes 35 seconds

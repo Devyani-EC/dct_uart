@@ -1,0 +1,307 @@
+INFO     : Efinix FPGA Synthesis.
+INFO     : Version: 2024.2.294
+INFO     : Compiled: Nov 14 2024.
+INFO     : 
+INFO     : Copyright (C) 2013 - 2024 Efinix, Inc. All rights reserved.
+
+INFO     : Reading project database "/home/dev/Vicharak/DCT/dct_uart/dct_uart.xml"
+INFO     : Analyzing Verilog file '/home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_peri_lib.v' [VERI-1482]
+INFO     : /home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_peri_lib.v(8): compiling module 'EFX_IBUF' [VERI-1018]
+INFO     : /home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_peri_lib.v(16): compiling module 'EFX_OBUF' [VERI-1018]
+INFO     : /home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_peri_lib.v(23): compiling module 'EFX_IO_BUF' [VERI-1018]
+INFO     : /home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_peri_lib.v(33): compiling module 'EFX_CLKOUT' [VERI-1018]
+INFO     : /home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_peri_lib.v(41): compiling module 'EFX_IREG' [VERI-1018]
+INFO     : /home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_peri_lib.v(51): compiling module 'EFX_OREG' [VERI-1018]
+INFO     : /home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_peri_lib.v(60): compiling module 'EFX_IOREG' [VERI-1018]
+INFO     : /home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_peri_lib.v(75): compiling module 'EFX_IDDIO' [VERI-1018]
+INFO     : /home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_peri_lib.v(87): compiling module 'EFX_ODDIO' [VERI-1018]
+INFO     : /home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_peri_lib.v(99): compiling module 'EFX_GPIO_V1' [VERI-1018]
+INFO     : /home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_peri_lib.v(124): compiling module 'EFX_GPIO_V2' [VERI-1018]
+INFO     : /home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_peri_lib.v(149): compiling module 'EFX_GPIO_V3' [VERI-1018]
+INFO     : /home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_peri_lib.v(186): compiling module 'EFX_PLL_V1' [VERI-1018]
+INFO     : /home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_peri_lib.v(205): compiling module 'EFX_PLL_V2' [VERI-1018]
+INFO     : /home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_peri_lib.v(231): compiling module 'EFX_PLL_V3' [VERI-1018]
+INFO     : /home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_peri_lib.v(278): compiling module 'EFX_OSC_V1' [VERI-1018]
+INFO     : /home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_peri_lib.v(284): compiling module 'EFX_OSC_V3' [VERI-1018]
+INFO     : /home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_peri_lib.v(293): compiling module 'EFX_FPLL_V1' [VERI-1018]
+INFO     : /home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_peri_lib.v(346): compiling module 'EFX_JTAG_V1' [VERI-1018]
+INFO     : /home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_peri_lib.v(355): compiling module 'EFX_JTAG_CTRL' [VERI-1018]
+INFO     : Reading project database "/home/dev/Vicharak/DCT/dct_uart/dct_uart.xml"
+INFO     : ***** Beginning Analysis ... *****
+INFO     : default VHDL library search path is now "/home/dev/Downloads/efinity/2024.2/sim_models/vhdl/packages/vhdl_2008" [VHDL-1504]
+INFO     : Analyzing Verilog file '/home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v' [VERI-1482]
+INFO     : Analyzing Verilog file '/home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_peri_lib.v' [VERI-1482]
+INFO     : Analyzing Verilog file '/home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v' [VERI-1482]
+INFO     : Analyzing Verilog file '/home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_peri_lib.v' [VERI-1482]
+INFO     : Analyzing Verilog file '/home/dev/Vicharak/DCT/dct_uart/rtl/buff-m.v' [VERI-1482]
+INFO     : Analyzing Verilog file '/home/dev/Vicharak/DCT/dct_uart/rtl/buf-as.v' [VERI-1482]
+INFO     : Analyzing Verilog file '/home/dev/Vicharak/DCT/dct_uart/rtl/uart_tx.v' [VERI-1482]
+INFO     : Analyzing Verilog file '/home/dev/Vicharak/DCT/dct_uart/rtl/top.v' [VERI-1482]
+INFO     : Analyzing Verilog file '/home/dev/Vicharak/DCT/dct_uart/rtl/mul.v' [VERI-1482]
+INFO     : Analyzing Verilog file '/home/dev/Vicharak/DCT/dct_uart/rtl/dct.v' [VERI-1482]
+INFO     : Analyzing Verilog file '/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v' [VERI-1482]
+INFO     : Analyzing Verilog file '/home/dev/Vicharak/DCT/dct_uart/rtl/uart_rx.v' [VERI-1482]
+INFO     : Analysis took 0.0111089 seconds.
+INFO     : 	Analysis took 0.01 seconds (approximately) in total CPU time.
+INFO     : Analysis virtual memory usage: begin = 120.328 MB, end = 121.352 MB, delta = 1.024 MB
+INFO     : Analysis resident set memory usage: begin = 70.344 MB, end = 71.62 MB, delta = 1.276 MB
+INFO     : 	Analysis peak resident set memory usage = 545.296 MB
+INFO     : ***** Ending Analysis ... *****
+INFO     : ***** Beginning Elaboration ... *****
+INFO     : /home/dev/Vicharak/DCT/dct_uart/rtl/top.v(1): compiling module 'top' [VERI-1018]
+WARNING  : /home/dev/Vicharak/DCT/dct_uart/rtl/top.v(36): expression size 7 truncated to fit in target size 6 [VERI-1209]
+WARNING  : /home/dev/Vicharak/DCT/dct_uart/rtl/top.v(64): expression size 7 truncated to fit in target size 6 [VERI-1209]
+INFO     : /home/dev/Vicharak/DCT/dct_uart/rtl/uart_rx.v(1): compiling module 'uart_rx' [VERI-1018]
+WARNING  : /home/dev/Vicharak/DCT/dct_uart/rtl/uart_rx.v(47): expression size 16 truncated to fit in target size 15 [VERI-1209]
+WARNING  : /home/dev/Vicharak/DCT/dct_uart/rtl/uart_rx.v(63): expression size 16 truncated to fit in target size 15 [VERI-1209]
+WARNING  : /home/dev/Vicharak/DCT/dct_uart/rtl/uart_rx.v(65): expression size 5 truncated to fit in target size 4 [VERI-1209]
+WARNING  : /home/dev/Vicharak/DCT/dct_uart/rtl/uart_rx.v(77): expression size 16 truncated to fit in target size 15 [VERI-1209]
+INFO     : /home/dev/Vicharak/DCT/dct_uart/rtl/uart_tx.v(1): compiling module 'uart_tx' [VERI-1018]
+WARNING  : /home/dev/Vicharak/DCT/dct_uart/rtl/uart_tx.v(54): expression size 16 truncated to fit in target size 15 [VERI-1209]
+WARNING  : /home/dev/Vicharak/DCT/dct_uart/rtl/uart_tx.v(65): expression size 16 truncated to fit in target size 15 [VERI-1209]
+WARNING  : /home/dev/Vicharak/DCT/dct_uart/rtl/uart_tx.v(70): expression size 4 truncated to fit in target size 3 [VERI-1209]
+WARNING  : /home/dev/Vicharak/DCT/dct_uart/rtl/uart_tx.v(82): expression size 16 truncated to fit in target size 15 [VERI-1209]
+INFO     : /home/dev/Vicharak/DCT/dct_uart/rtl/dct.v(1): compiling module 'dct_core' [VERI-1018]
+INFO     : /home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v(1): compiling module 'add_sub' [VERI-1018]
+INFO     : /home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v(229): compiling module 'FloatingCompare' [VERI-1018]
+INFO     : /home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v(251): compiling module 'mantissa_normalizer' [VERI-1018]
+WARNING  : /home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v(151): expression size 9 truncated to fit in target size 8 [VERI-1209]
+INFO     : /home/dev/Vicharak/DCT/dct_uart/rtl/buf-as.v(1): compiling module 'buff_as' [VERI-1018]
+INFO     : /home/dev/Vicharak/DCT/dct_uart/rtl/mul.v(1): compiling module 'mul' [VERI-1018]
+WARNING  : /home/dev/Vicharak/DCT/dct_uart/rtl/mul.v(32): expression size 32 truncated to fit in target size 10 [VERI-1209]
+WARNING  : /home/dev/Vicharak/DCT/dct_uart/rtl/mul.v(33): expression size 32 truncated to fit in target size 10 [VERI-1209]
+WARNING  : /home/dev/Vicharak/DCT/dct_uart/rtl/mul.v(106): expression size 32 truncated to fit in target size 10 [VERI-1209]
+WARNING  : /home/dev/Vicharak/DCT/dct_uart/rtl/mul.v(108): expression size 32 truncated to fit in target size 10 [VERI-1209]
+WARNING  : /home/dev/Vicharak/DCT/dct_uart/rtl/mul.v(122): expression size 12 truncated to fit in target size 10 [VERI-1209]
+WARNING  : /home/dev/Vicharak/DCT/dct_uart/rtl/mul.v(159): expression size 32 truncated to fit in target size 10 [VERI-1209]
+WARNING  : /home/dev/Vicharak/DCT/dct_uart/rtl/mul.v(162): expression size 32 truncated to fit in target size 10 [VERI-1209]
+WARNING  : /home/dev/Vicharak/DCT/dct_uart/rtl/mul.v(165): expression size 25 truncated to fit in target size 24 [VERI-1209]
+WARNING  : /home/dev/Vicharak/DCT/dct_uart/rtl/mul.v(166): expression size 11 truncated to fit in target size 10 [VERI-1209]
+WARNING  : /home/dev/Vicharak/DCT/dct_uart/rtl/mul.v(181): expression size 9 truncated to fit in target size 8 [VERI-1209]
+INFO     : /home/dev/Vicharak/DCT/dct_uart/rtl/buff-m.v(1): compiling module 'buff_mul' [VERI-1018]
+INFO     : Elaboration took 0.0516305 seconds.
+INFO     : 	Elaboration took 0.04 seconds (approximately) in total CPU time.
+INFO     : Elaboration virtual memory usage: begin = 121.352 MB, end = 138.76 MB, delta = 17.408 MB
+INFO     : Elaboration resident set memory usage: begin = 71.62 MB, end = 89.976 MB, delta = 18.356 MB
+INFO     : 	Elaboration peak resident set memory usage = 545.296 MB
+INFO     : ***** Ending Elaboration ... *****
+INFO     : ... Setting Synthesis Option: mode=speed
+INFO     : ***** Beginning Reading Mapping Library ... *****
+INFO     : Analyzing Verilog file '/home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v' [VERI-1482]
+INFO     : /home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v(8): compiling module 'EFX_ADD' [VERI-1018]
+INFO     : /home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v(21): compiling module 'EFX_FF' [VERI-1018]
+INFO     : /home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v(38): compiling module 'EFX_COMB4' [VERI-1018]
+INFO     : /home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v(48): compiling module 'EFX_GBUFCE' [VERI-1018]
+INFO     : /home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v(57): compiling module 'EFX_LUT4' [VERI-1018]
+INFO     : /home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v(65): compiling module 'EFX_MULT' [VERI-1018]
+INFO     : /home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v(100): compiling module 'EFX_DSP48' [VERI-1018]
+INFO     : /home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v(156): compiling module 'EFX_DSP24' [VERI-1018]
+INFO     : /home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v(209): compiling module 'EFX_DSP12' [VERI-1018]
+INFO     : /home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v(262): compiling module 'EFX_RAM_4K' [VERI-1018]
+INFO     : /home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v(322): compiling module 'EFX_RAM_5K' [VERI-1018]
+INFO     : /home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v(394): compiling module 'EFX_DPRAM_5K' [VERI-1018]
+INFO     : /home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v(499): compiling module 'RAMB5' [VERI-1018]
+INFO     : /home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v(561): compiling module 'EFX_RAM_10K' [VERI-1018]
+INFO     : /home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v(653): compiling module 'EFX_RAM10' [VERI-1018]
+INFO     : /home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v(754): compiling module 'EFX_DPRAM10' [VERI-1018]
+INFO     : /home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v(884): compiling module 'EFX_SRL8' [VERI-1018]
+INFO     : Reading Mapping Library took 0.00596024 seconds.
+INFO     : 	Reading Mapping Library took 0 seconds (approximately) in total CPU time.
+INFO     : Reading Mapping Library virtual memory usage: begin = 140.808 MB, end = 140.808 MB, delta = 0 MB
+INFO     : Reading Mapping Library resident set memory usage: begin = 92.044 MB, end = 92.044 MB, delta = 0 MB
+INFO     : 	Reading Mapping Library peak resident set memory usage = 545.296 MB
+INFO     : ***** Ending Reading Mapping Library ... *****
+INFO     : ... Pre-synthesis checks begin
+WARNING  : Removing redundant signal : A[31]. (/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v:230) [EFX-0200]
+WARNING  : Removing redundant signal : B[31]. (/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v:231) [EFX-0200]
+WARNING  : Removing redundant signal : count_leading_zeros[4]. (/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v:259) [EFX-0200]
+WARNING  : Removing redundant signal : count_leading_zeros[3]. (/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v:259) [EFX-0200]
+WARNING  : Removing redundant signal : count_leading_zeros[2]. (/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v:259) [EFX-0200]
+WARNING  : Removing redundant signal : count_leading_zeros[1]. (/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v:259) [EFX-0200]
+WARNING  : Removing redundant signal : count_leading_zeros[0]. (/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v:259) [EFX-0200]
+WARNING  : Removing redundant signal : count_leading_zeros.in[23]. (/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v:260) [EFX-0200]
+WARNING  : Removing redundant signal : count_leading_zeros.in[22]. (/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v:260) [EFX-0200]
+WARNING  : Removing redundant signal : count_leading_zeros.in[21]. (/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v:260) [EFX-0200]
+WARNING  : Removing redundant signal : count_leading_zeros.in[20]. (/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v:260) [EFX-0200]
+WARNING  : Removing redundant signal : count_leading_zeros.in[19]. (/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v:260) [EFX-0200]
+WARNING  : Removing redundant signal : count_leading_zeros.in[18]. (/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v:260) [EFX-0200]
+WARNING  : Removing redundant signal : count_leading_zeros.in[17]. (/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v:260) [EFX-0200]
+WARNING  : Removing redundant signal : count_leading_zeros.in[16]. (/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v:260) [EFX-0200]
+WARNING  : Removing redundant signal : count_leading_zeros.in[15]. (/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v:260) [EFX-0200]
+WARNING  : Removing redundant signal : count_leading_zeros.in[14]. (/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v:260) [EFX-0200]
+WARNING  : Removing redundant signal : count_leading_zeros.in[13]. (/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v:260) [EFX-0200]
+WARNING  : Removing redundant signal : count_leading_zeros.in[12]. (/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v:260) [EFX-0200]
+WARNING  : Removing redundant signal : count_leading_zeros.in[11]. (/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v:260) [EFX-0200]
+WARNING  : (The above message was generated too many times, subsequent similar messages will be muted.) [EFX-0200]
+INFO     : Module Instance 'as1_1' input pin 'op_add' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'as1_2' input pin 'op_add' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'as1_3' input pin 'op_add' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'as1_4' input pin 'op_add' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'as1_5' input pin 'op_add' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'as1_6' input pin 'op_add' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'as1_7' input pin 'op_add' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'as1_8' input pin 'op_add' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'as2_1' input pin 'op_add' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'as2_2' input pin 'op_add' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'as2_3' input pin 'op_add' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'as2_4' input pin 'op_add' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'as2_5' input pin 'op_add' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'as2_6' input pin 'op_add' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'as2_7' input pin 'op_add' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'as3_1' input pin 'op_add' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'as3_2' input pin 'op_add' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'as3_4' input pin 'op_add' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'as3_5' input pin 'op_add' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'm4_1' input pin 'a[0]' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'm4_1' input pin 'a[1]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'm4_1' input pin 'a[2]' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'm4_1' input pin 'a[3]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'm4_1' input pin 'a[4]' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'm4_1' input pin 'a[5]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'm4_1' input pin 'a[6]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'm4_1' input pin 'a[7]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'm4_1' input pin 'a[8]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'm4_1' input pin 'a[9]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'm4_1' input pin 'a[10]' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'm4_1' input pin 'a[11]' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'm4_1' input pin 'a[12]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'm4_1' input pin 'a[13]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'm4_1' input pin 'a[14]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'm4_1' input pin 'a[15]' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'm4_1' input pin 'a[16]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'm4_1' input pin 'a[17]' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'm4_1' input pin 'a[18]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'm4_1' input pin 'a[19]' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'm4_1' input pin 'a[20]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'm4_1' input pin 'a[21]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'm4_1' input pin 'a[22]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'm4_1' input pin 'a[23]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'm4_1' input pin 'a[24]' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'm4_1' input pin 'a[25]' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'm4_1' input pin 'a[26]' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'm4_1' input pin 'a[27]' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'm4_1' input pin 'a[28]' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'm4_1' input pin 'a[29]' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'm4_1' input pin 'a[30]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'm4_1' input pin 'a[31]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'm4_2' input pin 'a[0]' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'm4_2' input pin 'a[1]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'm4_2' input pin 'a[2]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'm4_2' input pin 'a[3]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'm4_2' input pin 'a[4]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'm4_2' input pin 'a[5]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'm4_2' input pin 'a[6]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'm4_2' input pin 'a[7]' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'm4_2' input pin 'a[8]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'm4_2' input pin 'a[9]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'm4_2' input pin 'a[10]' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'm4_2' input pin 'a[11]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'm4_2' input pin 'a[12]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'm4_2' input pin 'a[13]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'm4_2' input pin 'a[14]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'm4_2' input pin 'a[15]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'm4_2' input pin 'a[16]' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'm4_2' input pin 'a[17]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'm4_2' input pin 'a[18]' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'm4_2' input pin 'a[19]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'm4_2' input pin 'a[20]' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'm4_2' input pin 'a[21]' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'm4_2' input pin 'a[22]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'm4_2' input pin 'a[23]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'm4_2' input pin 'a[24]' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'm4_2' input pin 'a[25]' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'm4_2' input pin 'a[26]' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'm4_2' input pin 'a[27]' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'm4_2' input pin 'a[28]' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'm4_2' input pin 'a[29]' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'm4_2' input pin 'a[30]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'm4_2' input pin 'a[31]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'm4_3' input pin 'a[0]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'm4_3' input pin 'a[1]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'm4_3' input pin 'a[2]' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'm4_3' input pin 'a[3]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'm4_3' input pin 'a[4]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'm4_3' input pin 'a[5]' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'm4_3' input pin 'a[6]' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'm4_3' input pin 'a[7]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'm4_3' input pin 'a[8]' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'm4_3' input pin 'a[9]' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'm4_3' input pin 'a[10]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'm4_3' input pin 'a[11]' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'm4_3' input pin 'a[12]' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'm4_3' input pin 'a[13]' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'm4_3' input pin 'a[14]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'm4_3' input pin 'a[15]' is tied to constant (=0). [EFX-0266]
+INFO     : (The above message was generated too many times, subsequent similar messages will be muted.) [EFX-0266]
+INFO     : Module Instance 'm4_3' input pin 'a[16]' is tied to constant (=1). [EFX-0266]
+INFO     : ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 545296KB)
+INFO     : ... NameSpace init begin
+INFO     : ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 545296KB)
+INFO     : ... Mapping design "top"
+INFO     : ... Hierarchical pre-synthesis "uart_rx" begin
+INFO     : ... Hierarchical pre-synthesis "uart_rx" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 545296KB)
+INFO     : ... Hierarchical pre-synthesis "uart_tx" begin
+INFO     : ... Hierarchical pre-synthesis "uart_tx" end (Real time : 1s CPU user time : 0s CPU sys time : 0s MEM : 545296KB)
+INFO     : ... Hierarchical pre-synthesis "FloatingCompare" begin
+INFO     : ... Hierarchical pre-synthesis "FloatingCompare" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 545296KB)
+INFO     : ... Hierarchical pre-synthesis "mantissa_normalizer" begin
+INFO     : ... Hierarchical pre-synthesis "mantissa_normalizer" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 545296KB)
+INFO     : ... Hierarchical pre-synthesis "add_sub" begin
+INFO     : ... Hierarchical pre-synthesis "add_sub" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 545296KB)
+INFO     : ... Hierarchical pre-synthesis "buff_as" begin
+INFO     : ... Hierarchical pre-synthesis "buff_as" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 545296KB)
+INFO     : ... Hierarchical pre-synthesis "mul" begin
+INFO     : ... Hierarchical pre-synthesis "mul" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 545296KB)
+INFO     : ... Hierarchical pre-synthesis "buff_mul" begin
+INFO     : ... Hierarchical pre-synthesis "buff_mul" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 545296KB)
+INFO     : ... Hierarchical pre-synthesis "dct_core" begin
+INFO     : ... Hierarchical pre-synthesis "dct_core" end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 545296KB)
+INFO     : ... Hierarchical pre-synthesis "top" begin
+INFO     : ... Clock Enable Synthesis Performed on 326 flops.
+INFO     : ... Hierarchical pre-synthesis "top" end (Real time : 2s CPU user time : 3s CPU sys time : 0s MEM : 545296KB)
+INFO     : ... Flat optimizations begin
+INFO     : ... Flat optimizations end (Real time : 0s CPU user time : 3s CPU sys time : 0s MEM : 545296KB)
+INFO     : ... Flat synthesis begin
+INFO     : ... Flat synthesis end (Real time : 0s CPU user time : 4s CPU sys time : 0s MEM : 545296KB)
+INFO     : ... Flat optimizations begin
+INFO     : ... Flat optimizations end (Real time : 1s CPU user time : 4s CPU sys time : 0s MEM : 545296KB)
+INFO     : ... Check and break combinational loops begin
+INFO     : ... Check and break combinational loops end (Real time : 0s CPU user time : 4s CPU sys time : 0s MEM : 545296KB)
+INFO     : ... Sequential Optimization begin
+INFO     : ... Clock Network 'clk' with 14136 loads will be considered for sequential optimization.
+INFO     : ... Sequential Optimization deduced 3790 equivalent points.
+INFO     : ... Sequential Optimization end (Real time : 48s CPU user time : 54s CPU sys time : 0s MEM : 545296KB)
+INFO     : ... Setup for logic synthesis begin
+INFO     : ... Setup for logic synthesis end (Real time : 1s CPU user time : 54s CPU sys time : 0s MEM : 545296KB)
+INFO     : ... LUT mapping begin
+INFO     : ... LS, strategy: 3, nd: 11843, ed: 38532, lv: 8, pw: 24838.60
+INFO     : ... LUT mapping end (Real time : 39s CPU user time : 94s CPU sys time : 0s MEM : 545296KB)
+INFO     : ... Post-synthesis Verific netlist creation begin
+INFO     : ... Post-synthesis Verific netlist creation end (Real time : 1s CPU user time : 94s CPU sys time : 0s MEM : 545296KB)
+INFO     : ... Postmap Retiming Optimization begin
+INFO     : ... Clock Network 'clk~clk' with 13658 loads will be considered for retiming optimization.
+INFO     : ... Performed 5 retime moves.
+INFO     : ... Postmap Retiming Optimization end (Real time : 47s CPU user time : 142s CPU sys time : 0s MEM : 545296KB)
+INFO     : ***** Beginning VDB Netlist Checker ... *****
+INFO     : VDB Netlist Checker took 0.0353338 seconds.
+INFO     : 	VDB Netlist Checker took 0.06 seconds (approximately) in total CPU time.
+INFO     : VDB Netlist Checker virtual memory usage: begin = 638.008 MB, end = 638.008 MB, delta = 0 MB
+INFO     : VDB Netlist Checker resident set memory usage: begin = 523.956 MB, end = 524.084 MB, delta = 0.128 MB
+INFO     : 	VDB Netlist Checker peak resident set memory usage = 545.296 MB
+INFO     : ***** Ending VDB Netlist Checker ... *****
+INFO     : ... Post-Map Verilog Writer begin
+INFO     : Writing netlist 'top' to Verilog file '/home/dev/Vicharak/DCT/dct_uart/outflow/dct_uart.map.v' [VDB-1030]
+INFO     : ... Post-Map Verilog Writer end (Real time : 0s CPU user time : 143s CPU sys time : 0s MEM : 545296KB)
+INFO     : Resource Summary 
+INFO     : =============================== 
+INFO     : EFX_ADD         : 	2120
+INFO     : EFX_LUT4        : 	11843
+INFO     : EFX_MULT        : 	20
+INFO     : EFX_FF          : 	13958
+INFO     : EFX_GBUFCE      : 	1
+INFO     : =============================== 
+INFO     : The entire flow of EFX_MAP took 140.855 seconds.
+INFO     : 	The entire flow of EFX_MAP took 143.44 seconds (approximately) in total CPU time.
+INFO     : The entire flow of EFX_MAP virtual memory usage: begin = 84.168 MB, end = 638.008 MB, delta = 553.84 MB
+INFO     : The entire flow of EFX_MAP resident set memory usage: begin = 26.312 MB, end = 524.084 MB, delta = 497.772 MB
+INFO     : 	The entire flow of EFX_MAP peak resident set memory usage = 545.296 MB

@@ -1,0 +1,67 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 11, 2025 19:01:20
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] port 'probe26' remains unconnected for this instance (VERI-1927) (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:204)
+[EFX-0011 VERI-WARNING] input port 'probe26[0]' remains unconnected for this instance (VDB-1053) (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:158)
+[EFX-0200 WARNING] Removing redundant signal : compared_in[0]. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:5581)
+[EFX-0200 WARNING] Removing redundant signal : mask_in[0]. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:5582)
+[EFX-0200 WARNING] Removing redundant signal : trigger_in. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:5792)
+[EFX-0200 WARNING] Removing redundant signal : din[1612]. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:4677)
+[EFX-0200 WARNING] Removing redundant signal : trig_out. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:4958)
+[EFX-0200 WARNING] Removing redundant signal : trig_out_ack. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:4959)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:1110)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:1112)
+[EFX-0200 WARNING] Removing redundant signal : bscan_SEL. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:1113)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:1117)
+[EFX-0200 WARNING] Removing redundant signal : trig_in_ack. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:1128)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[25]. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:3542)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[24]. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:3542)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[23]. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:3542)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[22]. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:3542)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[21]. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:3542)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[20]. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:3542)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[19]. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:3542)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[18]. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:3542)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[17]. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:3542)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe26[0]'. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:158)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe27[0]'. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:158)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe28[0]'. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:158)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe29[0]'. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:158)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe30[0]'. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:158)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe31[0]'. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:158)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe32[0]'. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:158)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe33[0]'. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:158)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe34[0]'. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:158)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe35[0]'. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:158)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_DRCK is unconnected and will be removed. (VDB-8003) (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:13)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_RUNTEST is unconnected and will be removed. (VDB-8003) (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:15)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_TMS is unconnected and will be removed. (VDB-8003) (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:20)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 11, 2025 19:04:29
+///////////////////////////////////
+
+[EFX-0200 WARNING] Removing redundant signal : A[31]. (/home/efx/hdd/efinity_company_projects/22239c527c/add-sub.v:250)
+[EFX-0200 WARNING] Removing redundant signal : B[31]. (/home/efx/hdd/efinity_company_projects/22239c527c/add-sub.v:251)
+[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros[4]. (/home/efx/hdd/efinity_company_projects/22239c527c/add-sub.v:283)
+[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros[3]. (/home/efx/hdd/efinity_company_projects/22239c527c/add-sub.v:283)
+[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros[2]. (/home/efx/hdd/efinity_company_projects/22239c527c/add-sub.v:283)
+[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros[1]. (/home/efx/hdd/efinity_company_projects/22239c527c/add-sub.v:283)
+[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros[0]. (/home/efx/hdd/efinity_company_projects/22239c527c/add-sub.v:283)
+[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros.in[23]. (/home/efx/hdd/efinity_company_projects/22239c527c/add-sub.v:284)
+[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros.in[22]. (/home/efx/hdd/efinity_company_projects/22239c527c/add-sub.v:284)
+[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros.in[21]. (/home/efx/hdd/efinity_company_projects/22239c527c/add-sub.v:284)
+[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros.in[20]. (/home/efx/hdd/efinity_company_projects/22239c527c/add-sub.v:284)
+[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros.in[19]. (/home/efx/hdd/efinity_company_projects/22239c527c/add-sub.v:284)
+[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros.in[18]. (/home/efx/hdd/efinity_company_projects/22239c527c/add-sub.v:284)
+[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros.in[17]. (/home/efx/hdd/efinity_company_projects/22239c527c/add-sub.v:284)
+[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros.in[16]. (/home/efx/hdd/efinity_company_projects/22239c527c/add-sub.v:284)
+[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros.in[15]. (/home/efx/hdd/efinity_company_projects/22239c527c/add-sub.v:284)
+[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros.in[14]. (/home/efx/hdd/efinity_company_projects/22239c527c/add-sub.v:284)
+[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros.in[13]. (/home/efx/hdd/efinity_company_projects/22239c527c/add-sub.v:284)
+[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros.in[12]. (/home/efx/hdd/efinity_company_projects/22239c527c/add-sub.v:284)
+[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros.in[11]. (/home/efx/hdd/efinity_company_projects/22239c527c/add-sub.v:284)

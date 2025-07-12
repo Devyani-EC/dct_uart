@@ -1,0 +1,13 @@
+Running: efx_run_pt_unified.py dct_uart.dbg Trion T120F324 --output_dir outflow --timing_model C3 --project_xml dct_uart.xml
+Running: /home/efx/hdd/shreeyash/efinity/2024.2/bin/python3 /home/efx/hdd/shreeyash/efinity/2024.2/scripts/efx_run_pt_unified.py dct_uart.dbg Trion T120F324 --output_dir outflow --timing_model C3 --project_xml dct_uart.xml
+Load design file dct_uart.dbg.peri.xml
+Writing out summary report file
+Writing out pinout file
+Writing out interface config file
+Writing out timing related file
+Writing out verilog template file
+Writing out option register file
+Writing out boundary scan description file
+Writing out LPF
+Remove the auto-generated interface file. (file:/home/efx/hdd/efinity_company_projects/22239c527c/dct_uart.dbg.peri.xml)
+Stage completed: interface

@@ -1,0 +1,292 @@
+
+Efinity Interface Designer Report
+Version: 2024.2.294
+Date: 2025-07-12 12:23
+
+Copyright (C) 2013 - 2024 Efinix Inc. All rights reserved.
+
+Device: T120F324
+Project: dct_uart
+
+Package: 324-ball FBGA (final)
+Timing Model: C3 (final)
+Configuration Mode: active (x1)
+
+---------- Table of Contents (begin) ----------
+   1. Periphery Usage Summary
+   2. Generated Output Files
+   3. I/O Banks Summary
+   4. Global Connection Summary
+   5. Clock Region Usage Summary
+   6. Dual-Function Configuration Pin Usage
+   7. GPIO Usage Summary
+   8. PLL Usage Summary
+   9. LVDS Rx Usage Summary
+   10. LVDS Tx Usage Summary
+   11. MIPI Rx Usage Summary
+   12. MIPI Tx Usage Summary
+   13. Clock Mux Usage Summary
+   14. Configuration Control Usage Summary
+   15. JTAG Usage Summary
+   16. DDR Usage Summary
+---------- Table of Contents (end) ------------
+
+---------- 1. Periphery Usage Summary (begin) ----------
+clkmux: 2 / 2 (100.0%)
+control: 0 / 1 (0.0%)
+ddr: 0 / 1 (0.0%)
+gpio: 1 / 38 (2.63%)
+jtag: 0 / 4 (0.0%)
+lvds_bg: 0 / 2 (0.0%)
+lvds_rx: 1.0 / 26 (3.85%)
+	gpio: 2
+lvds_tx: 0 / 20 (0.0%)
+mipi_rx: 0 / 2 (0.0%)
+mipi_tx: 0 / 2 (0.0%)
+pll: 1 / 7 (14.29%)
+---------- Periphery Usage Summary (end) ----------
+
+---------- 2. Generated Output Files (begin) ----------
+Interface Configuration: dct_uart.interface.csv
+Peripheral Block Configuration: dct_uart.lpf
+Pinout Report: dct_uart.pinout.rpt
+Pinout CSV: dct_uart.pinout.csv
+Timing Report: dct_uart.pt_timing.rpt
+Timing SDC Template: dct_uart.pt.sdc
+Verilog Template: dct_uart_template.v
+Option Register File: dct_uart_or.ini
+---------- Generated Output Files (end) ----------
+
+---------- 3. I/O Banks Summary (begin) ----------
+
++-------------+-------------+
+|   I/O Bank  | I/O Voltage |
++-------------+-------------+
+|      1A     |    3.3 V    |
+|    1B_1C    |    3.3 V    |
+| 1D_1E_1F_1G |    3.3 V    |
+|      2D     |    3.3 V    |
+|      2E     |    3.3 V    |
+|      2F     |    3.3 V    |
+|      3A     |    1.2 V    |
+|      3B     |    1.2 V    |
+|   3D_TR_BR  |    3.3 V    |
+|      4E     |    3.3 V    |
+|      4F     |    3.3 V    |
+|      BL     |    1.2 V    |
+|      TL     |    1.2 V    |
++-------------+-------------+
+
+---------- I/O Banks Summary (end) ----------
+
+---------- 4. Global Connection Summary (begin) ----------
+
++----------+-----------------+------+
+| Pin Name |     Resource    | Type |
++----------+-----------------+------+
+|   clk    | PLL_TR0.CLKOUT0 | GCLK |
++----------+-----------------+------+
+
+---------- Global Connection Summary (end) ----------
+
+---------- 5. Clock Region Usage Summary (begin) ----------
+
++--------------+----------------+
+| Clock Region | Used/Available |
++--------------+----------------+
+|      B       |      0/16      |
+|      L0      |      0/4       |
+|      L1      |      0/4       |
+|      L3      |      0/4       |
+|      L7      |      0/4       |
+|      R0      |      0/4       |
+|      R2      |      0/4       |
+|      R3      |      0/4       |
+|      R4      |      0/4       |
+|      R6      |      0/4       |
+|      R7      |      0/4       |
+|      T       |      0/16      |
++--------------+----------------+
+
+---------- Clock Region Usage Summary (end) ----------
+
+---------- 6. Dual-Function Configuration Pin Usage (begin) ----------
+
+No instance using dual-function configuration pin.
+
+---------- Dual-Function Configuration Pin Usage (end) ----------
+
+---------- 7. GPIO Usage Summary (begin) ----------
+
+Global Unused Setting: input with weak pullup
+
++---------------+-------------+--------+----------+--------------+----------+----------------------+------------------+-------------+
+| Instance Name |   Resource  |  Mode  | Register | Clock Region | I/O Bank |     I/O Standard     |     Pad Name     | Package Pin |
++---------------+-------------+--------+----------+--------------+----------+----------------------+------------------+-------------+
+|     clk_in    |  GPIOR_166  | input  |          |              | 3D_TR_BR | 3.3 V LVTTL / LVCMOS | GPIOR_166_PLLIN0 |      C9     |
+|  uart_rx_pin  | GPIOT_RXP24 | input  |          |              |    2F    | 3.3 V LVTTL / LVCMOS |   GPIOT_RXP24    |     A12     |
+|  uart_tx_pin  | GPIOT_RXN24 | output |          |              |    2F    | 3.3 V LVTTL / LVCMOS |   GPIOT_RXN24    |     B12     |
++---------------+-------------+--------+----------+--------------+----------+----------------------+------------------+-------------+
+
+
+Input GPIO Configuration:
+=========================
+
++---------------+-------------+---------------------+-----------------+--------------+-----------------+------+
+| Instance Name |  Input Pin  | Alternate Input Pin | Input Clock Pin | Pull Up/Down | Schmitt Trigger | DDIO |
++---------------+-------------+---------------------+-----------------+--------------+-----------------+------+
+|     clk_in    |             |        clk_in       |                 |     none     |     Disable     | none |
+|  uart_rx_pin  | uart_rx_pin |                     |                 | weak pullup  |     Disable     |      |
++---------------+-------------+---------------------+-----------------+--------------+-----------------+------+
+
+Output GPIO Configuration:
+==========================
+
++---------------+-------------+------------------+----------------+-----------+------+
+| Instance Name |  Output Pin | Output Clock Pin | Drive Strength | Slew Rate | DDIO |
++---------------+-------------+------------------+----------------+-----------+------+
+|  uart_tx_pin  | uart_tx_pin |                  |       1        |  Disable  |      |
++---------------+-------------+------------------+----------------+-----------+------+
+
+---------- GPIO Usage Summary (end) ----------
+
+---------- 8. PLL Usage Summary (begin) ----------
+
++---------------+----------+--------------+--------------+-----------------+---------------+----------------+---------+---------+---------+
+| Instance Name | Resource | Clock Region | Clock Source | Reference Clock | Feedback Mode | Feedback Clock | Clkout0 | Clkout1 | Clkout2 |
++---------------+----------+--------------+--------------+-----------------+---------------+----------------+---------+---------+---------+
+|   pll_inst1   | PLL_TR0  |              |   external   |      clk_in     |    internal   |                |   clk   |         |         |
++---------------+----------+--------------+--------------+-----------------+---------------+----------------+---------+---------+---------+
+
+Instance Name                 : pll_inst1
+Resource                      : PLL_TR0
+Clock Source                  : external
+Reference Clock Resource      : GPIOR_166
+Reference Clock               : clk_in
+Feedback Mode                 : internal
+
+Reference Clock Frequency     : 74.2500 MHz
+Reference Clock Period        : 13.4680 ns
+Multiplier (M)                : 101
+Pre-Divider (N)               : 5
+VCO Frequency                 : 1499.8500 MHz
+Post-Divider (O)              : 1
+PLL Frequency                 : 1499.8500 MHz
+
+Output Clock 0
+Clock Pin Name                : clk
+Output Divider                : 25
+Output Phase Shift            : 0
+Output Frequency              : 59.9940 MHz
+Output Period                 : 16.668 ns
+
+Frequency calculations:
+	VCO = REFCLK * (M/N)
+	    = 74.2500 MHz * (101/5)
+	    = 1499.8500 MHz
+	PLL = VCO / O
+	    = 1499.8500 MHz / 1
+	    = 1499.8500 MHz
+
+	CLKOUT0 = PLL / CLKOUT0_DIV
+	        = 1499.8500 MHz / 25
+	        = 59.9940 MHz
+
+SDC Constraints:
+	create_clock -period 16.668 -name clk [get_ports {clk}]
+
+---------- PLL Usage Summary (end) ----------
+
+---------- 9. LVDS Rx Usage Summary (begin) ----------
+
+No LVDS Rx was configured
+
+---------- LVDS Rx Usage Summary (end) ----------
+
+---------- 10. LVDS Tx Usage Summary (begin) ----------
+
+No LVDS Tx was configured
+
+---------- LVDS Tx Usage Summary (end) ----------
+
+---------- 11. MIPI Rx Usage Summary (begin) ----------
+
+No MIPI Rx was configured
+
+---------- MIPI Rx Usage Summary (end) ----------
+
+---------- 12. MIPI Tx Usage Summary (begin) ----------
+
+No MIPI Tx was configured
+
+---------- MIPI Tx Usage Summary (end) ----------
+
+---------- 13. Clock Mux Usage Summary (begin) ----------
+
++----------+-----------------+
+| Resource | Output Assigned |
++----------+-----------------+
+| CLKMUX_R |        1        |
++----------+-----------------+
+
+Resource: CLKMUX_R
+
+Clock mux assignment:
+
++-----------------+-----------+----------+---------+---------+---------+---------+---------+---------+---------+---------+
+|  Input Resource | Clock Pin |  Status  | RCLK[0] | RCLK[1] | RCLK[2] | RCLK[3] | RCLK[4] | RCLK[5] | RCLK[6] | RCLK[7] |
++-----------------+-----------+----------+---------+---------+---------+---------+---------+---------+---------+---------+
+|                 |           | Selected |   clk   |         |         |         |         |         |         |         |
+|   GPIOR_181.IN  |           |          |    -    |         |         |         |         |         |         |         |
+|   GPIOR_180.IN  |           |          |         |    O    |         |         |         |         |         |         |
+|   GPIOR_179.IN  |           |          |         |         |    O    |         |         |         |         |         |
+|   GPIOR_178.IN  |           |          |         |         |         |    O    |         |         |         |         |
+|   GPIOR_177.IN  |           |          |         |         |         |         |    O    |         |         |         |
+|   GPIOR_176.IN  |           |          |         |         |         |         |         |    O    |         |         |
+|   GPIOR_175.IN  |           |          |         |         |         |         |         |         |    O    |         |
+|   GPIOR_174.IN  |           |          |         |         |         |         |         |         |         |    O    |
+| PLL_TR0.CLKOUT0 |    clk    |  Routed  |    ^    |         |         |         |         |         |    O    |         |
+| PLL_TR0.CLKOUT1 |           |          |         |    O    |    O    |         |         |         |         |         |
+| PLL_TR0.CLKOUT2 |           |          |         |    O    |    O    |         |         |         |         |         |
+| PLL_TR1.CLKOUT0 |           |          |    -    |         |         |    O    |         |         |         |         |
+| PLL_TR1.CLKOUT1 |           |          |         |         |         |         |    O    |    O    |         |         |
+| PLL_TR1.CLKOUT2 |           |          |         |         |         |         |    O    |    O    |         |         |
+| PLL_TR2.CLKOUT0 |           |          |    -    |         |         |         |         |         |         |    O    |
+| PLL_TR2.CLKOUT1 |           |          |         |    O    |    O    |         |         |         |         |         |
+| PLL_TR2.CLKOUT2 |           |          |         |    O    |    O    |         |         |         |         |         |
+| PLL_BR0.CLKOUT0 |           |          |         |         |         |    O    |         |         |         |    O    |
+| PLL_BR0.CLKOUT1 |           |          |         |         |         |         |    O    |    O    |         |         |
+| PLL_BR0.CLKOUT2 |           |          |         |         |         |         |    O    |    O    |         |         |
+| PLL_BR1.CLKOUT0 |           |          |         |         |    O    |         |         |         |    O    |         |
+| PLL_BR1.CLKOUT1 |           |          |         |         |         |    O    |    O    |         |         |         |
+| PLL_BR1.CLKOUT2 |           |          |         |         |         |    O    |    O    |         |         |         |
+| PLL_BR2.CLKOUT0 |           |          |         |         |         |         |         |    O    |         |         |
+| PLL_BR2.CLKOUT1 |           |          |         |    O    |         |         |         |         |    O    |         |
+| PLL_BR2.CLKOUT2 |           |          |         |         |         |         |         |         |         |    O    |
++-----------------+-----------+----------+---------+---------+---------+---------+---------+---------+---------+---------+
+
+*NOTE
+ : No connection from input to mux output
+O: Available input to mux output connection
+^: Input assigned to mux output
+-: Unavailable (used) input to mux output connection
+
+---------- Clock Mux Usage Summary (end) ----------
+
+---------- 14. Configuration Control Usage Summary (begin) ----------
+
+No Configuration Control was configured
+
+---------- Configuration Control Usage Summary (end) ----------
+
+---------- 15. JTAG Usage Summary (begin) ----------
+
+No JTAG was configured
+
+---------- JTAG Usage Summary (end) ----------
+
+---------- 16. DDR Usage Summary (begin) ----------
+
+No DDR was configured
+
+---------- DDR Usage Summary (end) ----------
