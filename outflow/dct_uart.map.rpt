@@ -1,6 +1,6 @@
 Efinity Synthesis report for project dct_uart
 Version: 2024.2.294
-Generated at: Jul 12, 2025 12:21:31
+Generated at: Jul 15, 2025 17:49:33
 Copyright (C) 2013 - 2024  All rights reserved.
 
 Top-level Entity Name : top
@@ -38,7 +38,7 @@ File List:
 
 ### ### EFX_FF CE enables (begin) ### ### ###
 Total number of enable signals: 72
-Total number of FFs with enable signals: 5025
+Total number of FFs with enable signals: 5026
 CE signal <valid>, number of controlling flip flops: 6
 CE signal <n5727>, number of controlling flip flops: 8
 CE signal <ceg_net348>, number of controlling flip flops: 6
@@ -87,20 +87,20 @@ CE signal <rx_/n497>, number of controlling flip flops: 1
 CE signal <rx_/n496>, number of controlling flip flops: 1
 CE signal <rx_/n508>, number of controlling flip flops: 1
 CE signal <tx_/select_40/Select_0/n6>, number of controlling flip flops: 8
-CE signal <i_call>, number of controlling flip flops: 282
-CE signal <dct/re_val_fi[7]>, number of controlling flip flops: 300
-CE signal <dct/re_val_se[6]>, number of controlling flip flops: 273
+CE signal <i_call>, number of controlling flip flops: 283
+CE signal <dct/re_val_fi[7]>, number of controlling flip flops: 283
+CE signal <dct/re_val_se[6]>, number of controlling flip flops: 261
 CE signal <dct/re_val_th[3]>, number of controlling flip flops: 288
-CE signal <dct/equal_76/n9>, number of controlling flip flops: 313
-CE signal <dct/re_val_fiv[5]>, number of controlling flip flops: 266
+CE signal <dct/equal_76/n9>, number of controlling flip flops: 324
+CE signal <dct/re_val_fiv[5]>, number of controlling flip flops: 262
 CE signal <dct/re_val_si[3]>, number of controlling flip flops: 256
-CE signal <dct/stage>, number of controlling flip flops: 257
-CE signal <dct/stage1>, number of controlling flip flops: 321
-CE signal <dct/stage2>, number of controlling flip flops: 193
+CE signal <dct/stage>, number of controlling flip flops: 261
+CE signal <dct/stage1>, number of controlling flip flops: 326
+CE signal <dct/stage2>, number of controlling flip flops: 196
 CE signal <dct/m4_5/valid_pipe[0]>, number of controlling flip flops: 186
-CE signal <dct/m4_5/valid_pipe[1]>, number of controlling flip flops: 60
+CE signal <dct/m4_5/valid_pipe[1]>, number of controlling flip flops: 61
 CE signal <dct/m4_5/valid_pipe[2]>, number of controlling flip flops: 295
-CE signal <dct/m4_5/valid_pipe[3]>, number of controlling flip flops: 194
+CE signal <dct/m4_5/valid_pipe[3]>, number of controlling flip flops: 195
 CE signal <dct/m4_5/valid_pipe[4]>, number of controlling flip flops: 175
 CE signal <dct/m4_5/valid_pipe[5]>, number of controlling flip flops: 160
 CE signal <dct/m4_1/early_exit>, number of controlling flip flops: 1
@@ -109,17 +109,17 @@ CE signal <dct/m4_3/early_exit>, number of controlling flip flops: 1
 CE signal <dct/m4_4/early_exit>, number of controlling flip flops: 1
 CE signal <dct/reset1>, number of controlling flip flops: 1
 CE signal <dct/m4_5/early_exit>, number of controlling flip flops: 1
-CE signal <dct/stage4>, number of controlling flip flops: 259
-CE signal <dct/stage5>, number of controlling flip flops: 131
+CE signal <dct/stage4>, number of controlling flip flops: 264
+CE signal <dct/stage5>, number of controlling flip flops: 134
 ### ### EFX_FF CE enables (end) ### ### ###
 
 ### ### EFX_FF SR set/reset (begin) ### ### ###
 Total number of set/reset signals: 87
-Total number of FFs with set/reset signals: 7335
+Total number of FFs with set/reset signals: 7444
 SR signal <equal_4/n11>, number of controlling flip flops: 6
 SR signal <dct/stage6>, number of controlling flip flops: 256
-SR signal <dct/as1_1/n465>, number of controlling flip flops: 323
-SR signal <dct/as1_1/n873>, number of controlling flip flops: 261
+SR signal <dct/as1_1/n465>, number of controlling flip flops: 334
+SR signal <dct/as1_1/n873>, number of controlling flip flops: 265
 SR signal <dct/as1_1/n1545>, number of controlling flip flops: 32
 SR signal <dct/as1_1/n1176>, number of controlling flip flops: 256
 SR signal <dct/as1_1/n1576>, number of controlling flip flops: 1
@@ -127,29 +127,29 @@ SR signal <dct/as1_2/n1545>, number of controlling flip flops: 32
 SR signal <dct/as1_2/n1576>, number of controlling flip flops: 1
 SR signal <dct/as1_3/n1545>, number of controlling flip flops: 32
 SR signal <dct/as1_3/n1576>, number of controlling flip flops: 1
-SR signal <dct/reset1>, number of controlling flip flops: 1332
-SR signal <dct/as1_1/n313>, number of controlling flip flops: 260
+SR signal <dct/reset1>, number of controlling flip flops: 1352
+SR signal <dct/as1_1/n313>, number of controlling flip flops: 262
 SR signal <dct/as1_4/n1545>, number of controlling flip flops: 32
 SR signal <dct/as1_4/n1576>, number of controlling flip flops: 1
-SR signal <dct/as5_1/n313>, number of controlling flip flops: 259
+SR signal <dct/as5_1/n313>, number of controlling flip flops: 266
 SR signal <dct/as1_5/n1545>, number of controlling flip flops: 32
 SR signal <dct/as1_5/n1576>, number of controlling flip flops: 1
 SR signal <dct/as1_6/n1545>, number of controlling flip flops: 32
-SR signal <dct/as6_1/n313>, number of controlling flip flops: 131
+SR signal <dct/as6_1/n313>, number of controlling flip flops: 133
 SR signal <dct/as1_6/n1576>, number of controlling flip flops: 1
 SR signal <dct/as1_7/n1545>, number of controlling flip flops: 32
 SR signal <dct/as1_7/n1576>, number of controlling flip flops: 1
 SR signal <dct/as1_8/n1545>, number of controlling flip flops: 32
 SR signal <dct/as1_8/n1576>, number of controlling flip flops: 1
-SR signal <dct/as2_1/n465>, number of controlling flip flops: 302
-SR signal <dct/as2_1/n873>, number of controlling flip flops: 230
+SR signal <dct/as2_1/n465>, number of controlling flip flops: 322
+SR signal <dct/as2_1/n873>, number of controlling flip flops: 235
 SR signal <dct/as2_1/n1545>, number of controlling flip flops: 32
 SR signal <dct/as2_1/n1176>, number of controlling flip flops: 224
 SR signal <dct/as2_1/n1576>, number of controlling flip flops: 1
-SR signal <dct/as2_1/n313>, number of controlling flip flops: 325
+SR signal <dct/as2_1/n313>, number of controlling flip flops: 329
+SR signal <dct/as3_1/n313>, number of controlling flip flops: 197
 SR signal <dct/as2_2/n1545>, number of controlling flip flops: 32
 SR signal <dct/as2_2/n1576>, number of controlling flip flops: 1
-SR signal <dct/as3_1/n313>, number of controlling flip flops: 194
 SR signal <dct/as2_3/n1545>, number of controlling flip flops: 32
 SR signal <dct/as2_3/n1576>, number of controlling flip flops: 1
 SR signal <dct/as2_4/n1545>, number of controlling flip flops: 32
@@ -161,8 +161,8 @@ SR signal <dct/as2_6/n1576>, number of controlling flip flops: 1
 SR signal <dct/as2_7/n1545>, number of controlling flip flops: 32
 SR signal <dct/as2_7/n1576>, number of controlling flip flops: 1
 SR signal <dct/stage1>, number of controlling flip flops: 32
-SR signal <dct/as3_1/n465>, number of controlling flip flops: 178
-SR signal <dct/as3_1/n873>, number of controlling flip flops: 132
+SR signal <dct/as3_1/n465>, number of controlling flip flops: 182
+SR signal <dct/as3_1/n873>, number of controlling flip flops: 135
 SR signal <dct/as3_1/n1545>, number of controlling flip flops: 32
 SR signal <dct/as3_1/n1176>, number of controlling flip flops: 128
 SR signal <dct/as3_1/n1576>, number of controlling flip flops: 1
@@ -175,8 +175,8 @@ SR signal <dct/as3_5/n1576>, number of controlling flip flops: 1
 SR signal <dct/stage2>, number of controlling flip flops: 160
 SR signal <dct/m4_5/valid_pipe[5]>, number of controlling flip flops: 5
 SR signal <dct/stage3>, number of controlling flip flops: 128
-SR signal <dct/as5_1/n465>, number of controlling flip flops: 254
-SR signal <dct/as5_1/n873>, number of controlling flip flops: 198
+SR signal <dct/as5_1/n465>, number of controlling flip flops: 258
+SR signal <dct/as5_1/n873>, number of controlling flip flops: 203
 SR signal <dct/as5_1/n1545>, number of controlling flip flops: 32
 SR signal <dct/as5_1/n1176>, number of controlling flip flops: 192
 SR signal <dct/as5_1/n1576>, number of controlling flip flops: 1
@@ -191,8 +191,8 @@ SR signal <dct/as5_5/n1576>, number of controlling flip flops: 1
 SR signal <dct/as5_6/n1545>, number of controlling flip flops: 32
 SR signal <dct/as5_6/n1576>, number of controlling flip flops: 1
 SR signal <dct/stage4>, number of controlling flip flops: 64
-SR signal <dct/as6_1/n465>, number of controlling flip flops: 160
-SR signal <dct/as6_1/n873>, number of controlling flip flops: 132
+SR signal <dct/as6_1/n465>, number of controlling flip flops: 172
+SR signal <dct/as6_1/n873>, number of controlling flip flops: 135
 SR signal <dct/as6_1/n1545>, number of controlling flip flops: 32
 SR signal <dct/as6_1/n1176>, number of controlling flip flops: 128
 SR signal <dct/as6_1/n1576>, number of controlling flip flops: 1
@@ -927,6 +927,12 @@ FF|OPT : Flip-flop optimization by equivalence checking
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (78)" removed instance : dct/as1_1/dff_16/i23
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (78)" representative instance : dct/as1_8/dff_16/i23
 FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (78)" removed instance : dct/as1_4/i20
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (78)" representative instance : dct/as1_5/i20
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (78)" removed instance : dct/as1_1/i20
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (78)" representative instance : dct/as1_8/i20
+FF|OPT : Flip-flop optimization by equivalence checking
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (78)" removed instance : dct/as1_3/i19
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (78)" representative instance : dct/as1_4/i19
 FF|OPT : Flip-flop optimization by equivalence checking
@@ -1316,6 +1322,12 @@ FF|OPT : Flip-flop optimization by equivalence checking
 FF|OPT : Flip-flop optimization by equivalence checking
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (78)" removed instance : dct/as1_2/dff_16/i23
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (78)" representative instance : dct/as1_6/dff_16/i23
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (78)" removed instance : dct/as1_3/i20
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (78)" representative instance : dct/as1_7/i20
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (78)" removed instance : dct/as1_2/i20
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (78)" representative instance : dct/as1_6/i20
 FF|OPT : Flip-flop optimization by equivalence checking
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/mul.v (46)" removed instance : dct/m4_4/dff_16/i9
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/mul.v (46)" representative instance : dct/m4_4/dff_16/i10
@@ -2040,6 +2052,12 @@ FF|OPT : Flip-flop optimization by equivalence checking
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (78)" removed instance : dct/as2_1/dff_16/i23
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (78)" representative instance : dct/as2_6/dff_16/i23
 FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (78)" removed instance : dct/as2_4/i20
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (78)" representative instance : dct/as2_2/i20
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (78)" removed instance : dct/as2_1/i20
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (78)" representative instance : dct/as2_6/i20
+FF|OPT : Flip-flop optimization by equivalence checking
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/mul.v (93)" removed instance : dct/m4_5/dff_57/i10
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/mul.v (93)" representative instance : dct/m4_5/dff_57/i9
 FF|OPT : Flip-flop optimization by equivalence checking
@@ -2661,6 +2679,9 @@ FF|OPT : Flip-flop optimization by equivalence checking
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (78)" removed instance : dct/as3_2/dff_16/i23
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (78)" representative instance : dct/as3_1/dff_16/i23
 FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (78)" removed instance : dct/as3_2/i20
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (78)" representative instance : dct/as3_1/i20
+FF|OPT : Flip-flop optimization by equivalence checking
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (78)" removed instance : dct/as6_3/i19
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (78)" representative instance : dct/as6_1/i19
 FF|OPT : Flip-flop optimization by equivalence checking
@@ -2856,6 +2877,9 @@ FF|OPT : Flip-flop optimization by equivalence checking
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (78)" removed instance : dct/as5_2/dff_16/i23
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (78)" representative instance : dct/as5_1/dff_16/i23
 FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (78)" removed instance : dct/as5_2/i20
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (78)" representative instance : dct/as5_1/i20
+FF|OPT : Flip-flop optimization by equivalence checking
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (78)" removed instance : dct/as6_6/dff_17/i32
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (78)" representative instance : dct/as6_1/dff_17/i32
 FF|OPT : Flip-flop optimization by equivalence checking
@@ -3047,6 +3071,9 @@ FF|OPT : Flip-flop optimization by equivalence checking
 FF|OPT : Flip-flop optimization by equivalence checking
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (78)" removed instance : dct/as6_6/dff_16/i23
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (78)" representative instance : dct/as6_1/dff_16/i23
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (78)" removed instance : dct/as6_6/i20
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (78)" representative instance : dct/as6_1/i20
 FF|OPT : Flip-flop optimization by equivalence checking
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (226)" removed instance : dct/as1_7/i153
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (226)" representative instance : dct/as1_8/i153
@@ -3564,6 +3591,15 @@ FF|OPT : Flip-flop optimization by equivalence checking
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (164)" removed instance : dct/as1_4/i98
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (164)" representative instance : dct/as1_5/i98
 FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (105)" removed instance : dct/as1_4/i45
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (105)" representative instance : dct/as1_5/i45
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (136)" removed instance : dct/as1_4/i77
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (136)" representative instance : dct/as1_5/i77
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (164)" removed instance : dct/as1_4/i101
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (164)" representative instance : dct/as1_5/i101
+FF|OPT : Flip-flop optimization by equivalence checking
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (136)" removed instance : dct/as1_1/i76
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (136)" representative instance : dct/as1_4/i76
 FF|OPT : Flip-flop optimization by equivalence checking
@@ -3581,6 +3617,15 @@ FF|OPT : Flip-flop optimization by equivalence checking
 FF|OPT : Flip-flop optimization by equivalence checking
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (164)" removed instance : dct/as1_1/i98
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (164)" representative instance : dct/as1_8/i98
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (105)" removed instance : dct/as1_1/i45
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (105)" representative instance : dct/as1_8/i45
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (136)" removed instance : dct/as1_1/i77
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (136)" representative instance : dct/as1_8/i77
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (164)" removed instance : dct/as1_1/i101
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (164)" representative instance : dct/as1_8/i101
 FF|OPT : Flip-flop optimization by equivalence checking
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (105)" removed instance : dct/as1_3/i44
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (105)" representative instance : dct/as1_4/i44
@@ -4050,6 +4095,15 @@ FF|OPT : Flip-flop optimization by equivalence checking
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (164)" removed instance : dct/as1_3/i98
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (164)" representative instance : dct/as1_7/i98
 FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (105)" removed instance : dct/as1_3/i45
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (105)" representative instance : dct/as1_7/i45
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (136)" removed instance : dct/as1_3/i77
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (136)" representative instance : dct/as1_7/i77
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (164)" removed instance : dct/as1_3/i101
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (164)" representative instance : dct/as1_7/i101
+FF|OPT : Flip-flop optimization by equivalence checking
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (136)" removed instance : dct/as1_2/i76
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (136)" representative instance : dct/as1_4/i76
 FF|OPT : Flip-flop optimization by equivalence checking
@@ -4067,6 +4121,15 @@ FF|OPT : Flip-flop optimization by equivalence checking
 FF|OPT : Flip-flop optimization by equivalence checking
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (164)" removed instance : dct/as1_2/i98
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (164)" representative instance : dct/as1_6/i98
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (105)" removed instance : dct/as1_2/i45
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (105)" representative instance : dct/as1_6/i45
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (136)" removed instance : dct/as1_2/i77
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (136)" representative instance : dct/as1_6/i77
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (164)" removed instance : dct/as1_2/i101
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (164)" representative instance : dct/as1_6/i101
 FF|OPT : Flip-flop optimization by equivalence checking
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (105)" removed instance : dct/as2_7/i44
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (105)" representative instance : dct/as2_5/i44
@@ -4566,6 +4629,15 @@ FF|OPT : Flip-flop optimization by equivalence checking
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (164)" removed instance : dct/as2_4/i98
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (164)" representative instance : dct/as2_2/i98
 FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (105)" removed instance : dct/as2_4/i45
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (105)" representative instance : dct/as2_2/i45
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (136)" removed instance : dct/as2_4/i77
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (136)" representative instance : dct/as2_2/i77
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (164)" removed instance : dct/as2_4/i101
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (164)" representative instance : dct/as2_2/i101
+FF|OPT : Flip-flop optimization by equivalence checking
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (136)" removed instance : dct/as2_1/i76
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (136)" representative instance : dct/as2_5/i76
 FF|OPT : Flip-flop optimization by equivalence checking
@@ -4583,6 +4655,15 @@ FF|OPT : Flip-flop optimization by equivalence checking
 FF|OPT : Flip-flop optimization by equivalence checking
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (164)" removed instance : dct/as2_1/i98
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (164)" representative instance : dct/as2_6/i98
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (105)" removed instance : dct/as2_1/i45
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (105)" representative instance : dct/as2_6/i45
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (136)" removed instance : dct/as2_1/i77
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (136)" representative instance : dct/as2_6/i77
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (164)" removed instance : dct/as2_1/i101
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (164)" representative instance : dct/as2_6/i101
 FF|OPT : Flip-flop optimization by equivalence checking
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/mul.v (93)" removed instance : dct/m4_5/dff_61/i31
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/mul.v (93)" representative instance : dct/m4_5/i61
@@ -5082,6 +5163,15 @@ FF|OPT : Flip-flop optimization by equivalence checking
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (164)" removed instance : dct/as3_2/i98
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (164)" representative instance : dct/as3_1/i98
 FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (105)" removed instance : dct/as3_2/i45
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (105)" representative instance : dct/as3_1/i45
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (136)" removed instance : dct/as3_2/i77
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (136)" representative instance : dct/as3_1/i77
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (164)" removed instance : dct/as3_2/i101
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (164)" representative instance : dct/as3_1/i101
+FF|OPT : Flip-flop optimization by equivalence checking
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (105)" removed instance : dct/as6_3/i44
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (105)" representative instance : dct/as6_1/i44
 FF|OPT : Flip-flop optimization by equivalence checking
@@ -5325,6 +5415,15 @@ FF|OPT : Flip-flop optimization by equivalence checking
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (164)" removed instance : dct/as5_2/i98
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (164)" representative instance : dct/as5_1/i98
 FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (105)" removed instance : dct/as5_2/i45
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (105)" representative instance : dct/as5_1/i45
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (136)" removed instance : dct/as5_2/i77
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (136)" representative instance : dct/as5_1/i77
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (164)" removed instance : dct/as5_2/i101
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (164)" representative instance : dct/as5_1/i101
+FF|OPT : Flip-flop optimization by equivalence checking
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (105)" removed instance : dct/as6_6/i39
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (105)" representative instance : dct/as6_1/i39
 FF|OPT : Flip-flop optimization by equivalence checking
@@ -5558,6 +5657,15 @@ FF|OPT : Flip-flop optimization by equivalence checking
 FF|OPT : Flip-flop optimization by equivalence checking
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (164)" removed instance : dct/as6_6/i98
 @ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (164)" representative instance : dct/as6_1/i98
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (105)" removed instance : dct/as6_6/i45
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (105)" representative instance : dct/as6_1/i45
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (136)" removed instance : dct/as6_6/i77
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (136)" representative instance : dct/as6_1/i77
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (164)" removed instance : dct/as6_6/i101
+@ "/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v (164)" representative instance : dct/as6_1/i101
 FF Output: reset(=0)
 FF Output: dct/as1_5/op_add0(=0)
 FF Output: dct/as1_5/op_add1(=0)
@@ -5966,85 +6074,105 @@ FF Output: dct/m4_5/a_m3[21](=0)
 
 Module                                FFs        ADDs        LUTs      RAMs DSP/MULTs
 -----------------------------         ---        ----        ----      ---- ---------
-top:top                        13958(791)     2120(5)  11843(274)      0(0)     20(0)
- +rx_:uart_rx                      33(33)        0(0)      64(64)      0(0)      0(0)
- +tx_:uart_tx                      30(30)        0(0)      52(52)      0(0)      0(0)
- +dct:dct_core                13104(2242)     2115(0)  11453(876)      0(0)     20(0)
-  +as1_1:add_sub                 134(134)      76(67)    309(247)      0(0)      0(0)
-   +norm:mantissa_normalizer         0(0)        9(9)      62(62)      0(0)      0(0)
-  +as1_2:add_sub                 130(130)      76(67)    297(235)      0(0)      0(0)
-   +norm:mantissa_normalizer         0(0)        9(9)      62(62)      0(0)      0(0)
-  +as1_3:add_sub                 132(132)      76(67)    296(236)      0(0)      0(0)
-   +norm:mantissa_normalizer         0(0)        9(9)      60(60)      0(0)      0(0)
-  +as1_4:add_sub                 138(138)      76(67)    301(241)      0(0)      0(0)
-   +norm:mantissa_normalizer         0(0)        9(9)      60(60)      0(0)      0(0)
-  +as1_5:add_sub                 272(272)        9(0)    261(199)      0(0)      0(0)
-   +norm:mantissa_normalizer         0(0)        9(9)      62(62)      0(0)      0(0)
-  +as1_6:add_sub                 270(270)        9(0)    253(189)      0(0)      0(0)
-   +norm:mantissa_normalizer         0(0)        9(9)      64(64)      0(0)      0(0)
-  +as1_7:add_sub                 270(270)        9(0)    257(190)      0(0)      0(0)
+top:top                        14044(791)     2148(5)  11976(273)      0(0)     20(0)
+ +rx_:uart_rx                      30(30)        0(0)      64(64)      0(0)      0(0)
+ +tx_:uart_tx                      29(29)        0(0)      52(52)      0(0)      0(0)
+ +dct:dct_core                13194(2221)     2143(0)  11587(841)      0(0)     20(0)
+  +as1_1:add_sub                 135(135)      76(67)    311(244)      0(0)      0(0)
    +norm:mantissa_normalizer         0(0)        9(9)      67(67)      0(0)      0(0)
-  +as1_8:add_sub                 281(281)        9(0)    274(204)      0(0)      0(0)
-   +norm:mantissa_normalizer         0(0)        9(9)      70(70)      0(0)      0(0)
-  +as2_1:add_sub                 137(137)      76(67)    307(242)      0(0)      0(0)
-   +norm:mantissa_normalizer         0(0)        9(9)      65(65)      0(0)      0(0)
-  +as2_2:add_sub                 274(274)      76(67)    372(304)      0(0)      0(0)
+  +as1_2:add_sub                 136(136)      76(67)    326(264)      0(0)      0(0)
+   +norm:mantissa_normalizer         0(0)        9(9)      62(62)      0(0)      0(0)
+  +as1_3:add_sub                 134(134)      76(67)    303(237)      0(0)      0(0)
+   +norm:mantissa_normalizer         0(0)        9(9)      66(66)      0(0)      0(0)
+  +as1_4:add_sub                 136(136)      76(67)    311(248)      0(0)      0(0)
+   +norm:mantissa_normalizer         0(0)        9(9)      63(63)      0(0)      0(0)
+  +as1_5:add_sub                 272(272)        9(0)    261(194)      0(0)      0(0)
+   +comp_abs:FloatingCompare         0(0)        0(0)        5(5)      0(0)      0(0)
+   +norm:mantissa_normalizer         0(0)        9(9)      62(62)      0(0)      0(0)
+  +as1_6:add_sub                 277(277)        9(0)    275(193)      0(0)      0(0)
+   +comp_abs:FloatingCompare         0(0)        0(0)      10(10)      0(0)      0(0)
+   +norm:mantissa_normalizer         0(0)        9(9)      72(72)      0(0)      0(0)
+  +as1_7:add_sub                 275(275)        9(0)    263(190)      0(0)      0(0)
+   +comp_abs:FloatingCompare         0(0)        0(0)        6(6)      0(0)      0(0)
+   +norm:mantissa_normalizer         0(0)        9(9)      67(67)      0(0)      0(0)
+  +as1_8:add_sub                 283(283)        9(0)    275(207)      0(0)      0(0)
+   +comp_abs:FloatingCompare         0(0)        0(0)        6(6)      0(0)      0(0)
+   +norm:mantissa_normalizer         0(0)        9(9)      62(62)      0(0)      0(0)
+  +as2_1:add_sub                 139(139)      76(67)    316(247)      0(0)      0(0)
+   +norm:mantissa_normalizer         0(0)        9(9)      69(69)      0(0)      0(0)
+  +as2_2:add_sub                 282(282)      76(67)    385(313)      0(0)      0(0)
+   +comp_abs:FloatingCompare         0(0)        0(0)        4(4)      0(0)      0(0)
    +norm:mantissa_normalizer         0(0)        9(9)      68(68)      0(0)      0(0)
-  +as2_3:add_sub                 273(273)      76(67)    379(319)      0(0)      0(0)
-   +norm:mantissa_normalizer         0(0)        9(9)      60(60)      0(0)      0(0)
-  +as2_4:add_sub                 131(131)        9(0)    196(130)      0(0)      0(0)
-   +norm:mantissa_normalizer         0(0)        9(9)      66(66)      0(0)      0(0)
-  +as2_5:add_sub                 277(277)      76(67)    386(322)      0(0)      0(0)
-   +norm:mantissa_normalizer         0(0)        9(9)      64(64)      0(0)      0(0)
-  +as2_6:add_sub                 272(272)        9(0)    274(203)      0(0)      0(0)
-   +norm:mantissa_normalizer         0(0)        9(9)      71(71)      0(0)      0(0)
-  +as2_7:add_sub                 275(275)      76(67)    374(315)      0(0)      0(0)
-   +norm:mantissa_normalizer         0(0)        9(9)      59(59)      0(0)      0(0)
-  +buff1:buff_as                 192(192)        0(0)        0(0)      0(0)      0(0)
-  +as3_1:add_sub                 280(280)      76(67)    411(345)      0(0)      0(0)
-   +norm:mantissa_normalizer         0(0)        9(9)      66(66)      0(0)      0(0)
-  +as3_2:add_sub                 131(131)        9(0)     158(98)      0(0)      0(0)
-   +norm:mantissa_normalizer         0(0)        9(9)      60(60)      0(0)      0(0)
-  +as3_4:add_sub                 273(273)      76(67)    376(309)      0(0)      0(0)
+  +as2_3:add_sub                 278(278)      76(67)    399(329)      0(0)      0(0)
+   +comp_abs:FloatingCompare         0(0)        0(0)        3(3)      0(0)      0(0)
    +norm:mantissa_normalizer         0(0)        9(9)      67(67)      0(0)      0(0)
-  +as3_5:add_sub                 279(279)      76(67)    381(316)      0(0)      0(0)
+  +as2_4:add_sub                 134(134)        9(0)    190(126)      0(0)      0(0)
+   +norm:mantissa_normalizer         0(0)        9(9)      64(64)      0(0)      0(0)
+  +as2_5:add_sub                 282(282)      76(67)    386(318)      0(0)      0(0)
+   +comp_abs:FloatingCompare         0(0)        0(0)        8(8)      0(0)      0(0)
+   +norm:mantissa_normalizer         0(0)        9(9)      60(60)      0(0)      0(0)
+  +as2_6:add_sub                 272(272)        9(0)    265(196)      0(0)      0(0)
+   +comp_abs:FloatingCompare         0(0)        0(0)        4(4)      0(0)      0(0)
    +norm:mantissa_normalizer         0(0)        9(9)      65(65)      0(0)      0(0)
+  +as2_7:add_sub                 286(286)      76(67)    378(302)      0(0)      0(0)
+   +comp_abs:FloatingCompare         0(0)        0(0)        4(4)      0(0)      0(0)
+   +norm:mantissa_normalizer         0(0)        9(9)      72(72)      0(0)      0(0)
+  +buff1:buff_as                 192(192)        0(0)        0(0)      0(0)      0(0)
+  +as3_1:add_sub                 283(283)      76(67)    440(357)      0(0)      0(0)
+   +comp_abs:FloatingCompare         0(0)        0(0)        7(7)      0(0)      0(0)
+   +norm:mantissa_normalizer         0(0)        9(9)      76(76)      0(0)      0(0)
+  +as3_2:add_sub                 136(136)        9(0)    177(109)      0(0)      0(0)
+   +norm:mantissa_normalizer         0(0)        9(9)      68(68)      0(0)      0(0)
+  +as3_4:add_sub                 277(277)      76(67)    375(309)      0(0)      0(0)
+   +comp_abs:FloatingCompare         0(0)        0(0)        7(7)      0(0)      0(0)
+   +norm:mantissa_normalizer         0(0)        9(9)      59(59)      0(0)      0(0)
+  +as3_5:add_sub                 280(280)      76(67)    378(316)      0(0)      0(0)
+   +comp_abs:FloatingCompare         0(0)        0(0)        5(5)      0(0)      0(0)
+   +norm:mantissa_normalizer         0(0)        9(9)      57(57)      0(0)      0(0)
   +buff12:buff_as                192(192)        0(0)        0(0)      0(0)      0(0)
   +buff13:buff_as                192(192)        0(0)        0(0)      0(0)      0(0)
   +buff14:buff_as                192(192)        0(0)        0(0)      0(0)      0(0)
   +buff15:buff_as                192(192)        0(0)        0(0)      0(0)      0(0)
   +buff16:buff_as                192(192)        0(0)        0(0)      0(0)      0(0)
   +m4_1:mul                      248(248)    129(129)    321(321)      0(0)      4(4)
-  +m4_2:mul                      248(248)    129(129)    320(320)      0(0)      4(4)
-  +m4_3:mul                      246(246)    129(129)    318(318)      0(0)      4(4)
-  +m4_4:mul                      248(248)    129(129)    319(319)      0(0)      4(4)
-  +m4_5:mul                      257(257)    129(129)    324(324)      0(0)      4(4)
+  +m4_2:mul                      249(249)    129(129)    321(321)      0(0)      4(4)
+  +m4_3:mul                      247(247)    129(129)    321(321)      0(0)      4(4)
+  +m4_4:mul                      248(248)    129(129)    322(322)      0(0)      4(4)
+  +m4_5:mul                      257(257)    129(129)    321(321)      0(0)      4(4)
   +buff2:buff_mul                224(224)        0(0)        0(0)      0(0)      0(0)
   +buff3:buff_mul                224(224)        0(0)        0(0)      0(0)      0(0)
   +buff4:buff_mul                224(224)        0(0)        0(0)      0(0)      0(0)
   +buff5:buff_mul                224(224)        0(0)        0(0)      0(0)      0(0)
-  +as5_1:add_sub                 269(269)      76(67)    401(340)      0(0)      0(0)
-   +norm:mantissa_normalizer         0(0)        9(9)      61(61)      0(0)      0(0)
-  +as5_2:add_sub                 133(133)        9(0)    183(115)      0(0)      0(0)
-   +norm:mantissa_normalizer         0(0)        9(9)      68(68)      0(0)      0(0)
-  +as5_3:add_sub                 272(272)      76(67)    388(324)      0(0)      0(0)
-   +norm:mantissa_normalizer         0(0)        9(9)      64(64)      0(0)      0(0)
-  +as5_4:add_sub                 137(137)        9(0)    197(128)      0(0)      0(0)
-   +norm:mantissa_normalizer         0(0)        9(9)      69(69)      0(0)      0(0)
-  +as5_5:add_sub                 271(271)      76(67)    384(318)      0(0)      0(0)
+  +as5_1:add_sub                 275(275)      76(67)    400(332)      0(0)      0(0)
+   +comp_abs:FloatingCompare         0(0)        0(0)      10(10)      0(0)      0(0)
+   +norm:mantissa_normalizer         0(0)        9(9)      58(58)      0(0)      0(0)
+  +as5_2:add_sub                 136(136)        9(0)    167(101)      0(0)      0(0)
    +norm:mantissa_normalizer         0(0)        9(9)      66(66)      0(0)      0(0)
-  +as5_6:add_sub                 284(284)      76(67)    410(339)      0(0)      0(0)
-   +norm:mantissa_normalizer         0(0)        9(9)      71(71)      0(0)      0(0)
+  +as5_3:add_sub                 276(276)      76(67)    379(313)      0(0)      0(0)
+   +comp_abs:FloatingCompare         0(0)        0(0)        2(2)      0(0)      0(0)
+   +norm:mantissa_normalizer         0(0)        9(9)      64(64)      0(0)      0(0)
+  +as5_4:add_sub                 141(141)      37(28)    210(134)      0(0)      0(0)
+   +comp_abs:FloatingCompare         0(0)        0(0)        1(1)      0(0)      0(0)
+   +norm:mantissa_normalizer         0(0)        9(9)      75(75)      0(0)      0(0)
+  +as5_5:add_sub                 275(275)      76(67)    374(301)      0(0)      0(0)
+   +comp_abs:FloatingCompare         0(0)        0(0)        3(3)      0(0)      0(0)
+   +norm:mantissa_normalizer         0(0)        9(9)      70(70)      0(0)      0(0)
+  +as5_6:add_sub                 284(284)      76(67)    394(320)      0(0)      0(0)
+   +comp_abs:FloatingCompare         0(0)        0(0)        6(6)      0(0)      0(0)
+   +norm:mantissa_normalizer         0(0)        9(9)      68(68)      0(0)      0(0)
   +buff6:buff_as                 192(192)        0(0)        0(0)      0(0)      0(0)
   +buff7:buff_as                 192(192)        0(0)        0(0)      0(0)      0(0)
-  +as6_1:add_sub                 277(277)      76(67)    397(334)      0(0)      0(0)
+  +as6_1:add_sub                 281(281)      76(67)    422(346)      0(0)      0(0)
+   +comp_abs:FloatingCompare         0(0)        0(0)      10(10)      0(0)      0(0)
+   +norm:mantissa_normalizer         0(0)        9(9)      66(66)      0(0)      0(0)
+  +as6_3:add_sub                 275(275)      76(67)    392(319)      0(0)      0(0)
+   +comp_abs:FloatingCompare         0(0)        0(0)      10(10)      0(0)      0(0)
    +norm:mantissa_normalizer         0(0)        9(9)      63(63)      0(0)      0(0)
-  +as6_3:add_sub                 269(269)      76(67)    376(314)      0(0)      0(0)
-   +norm:mantissa_normalizer         0(0)        9(9)      62(62)      0(0)      0(0)
-  +as6_5:add_sub                 137(137)       12(3)    202(134)      0(0)      0(0)
-   +norm:mantissa_normalizer         0(0)        9(9)      68(68)      0(0)      0(0)
-  +as6_6:add_sub                 137(137)        9(0)    175(108)      0(0)      0(0)
-   +norm:mantissa_normalizer         0(0)        9(9)      67(67)      0(0)      0(0)
+  +as6_5:add_sub                 143(143)       12(3)    196(131)      0(0)      0(0)
+   +comp_abs:FloatingCompare         0(0)        0(0)        1(1)      0(0)      0(0)
+   +norm:mantissa_normalizer         0(0)        9(9)      64(64)      0(0)      0(0)
+  +as6_6:add_sub                 141(141)        9(0)    192(123)      0(0)      0(0)
+   +norm:mantissa_normalizer         0(0)        9(9)      69(69)      0(0)      0(0)
   +buff8:buff_as                 192(192)        0(0)        0(0)      0(0)      0(0)
   +buff9:buff_as                 192(192)        0(0)        0(0)      0(0)      0(0)
   +buff10:buff_as                192(192)        0(0)        0(0)      0(0)      0(0)
@@ -6057,7 +6185,7 @@ top:top                        13958(791)     2120(5)  11843(274)      0(0)     
 
  Clock     Flip-Flops   Memory Ports    Multipliers
  -----     ----------   ------------    -----------
-   clk          13958              0             20
+   clk          14044              0             20
 
 ### ### Clock Load Distribution Report (end) ### ###
 
@@ -6065,15 +6193,15 @@ top:top                        13958(791)     2120(5)  11843(274)      0(0)     
 INPUT  PORTS    : 	2
 OUTPUT PORTS    : 	1
 
-EFX_ADD         : 	2120
-EFX_LUT4        : 	11843
-   1-2  Inputs  : 	1463
-   3    Inputs  : 	5914
-   4    Inputs  : 	4466
+EFX_ADD         : 	2148
+EFX_LUT4        : 	11976
+   1-2  Inputs  : 	1462
+   3    Inputs  : 	5979
+   4    Inputs  : 	4535
 EFX_MULT        : 	20
-EFX_FF          : 	13958
+EFX_FF          : 	14044
 EFX_GBUFCE      : 	1
 ### ### Resource Summary (end) ### ### ###
 
-Plain synthesis (without verilog dump and post-map checks) time : 141s
-Elapsed synthesis time : 141s
+Plain synthesis (without verilog dump and post-map checks) time : 140s
+Elapsed synthesis time : 140s

@@ -4,11 +4,11 @@ INFO     : --max_threads set to 10
            ***** Beginning stage netlist pre-processing ... *****
 INFO     : Successfully Read in Verific binary Netlist dump file "/home/dev/Vicharak/DCT/dct_uart/outflow/dct_uart.dbg.vdb".
 INFO     : ***** Beginning VDB Netlist Checker ... *****
-INFO     : VDB Netlist Checker took 0.058705 seconds.
-INFO     : 	VDB Netlist Checker took 0.11 seconds (approximately) in total CPU time.
-INFO     : VDB Netlist Checker virtual memory usage: begin = 3201.06 MB, end = 3237.96 MB, delta = 36.9 MB
-INFO     : VDB Netlist Checker resident set memory usage: begin = 2702.48 MB, end = 2702.61 MB, delta = 0.128 MB
-INFO     : 	VDB Netlist Checker peak resident set memory usage = 2702.61 MB
+INFO     : VDB Netlist Checker took 0.0610495 seconds.
+INFO     : 	VDB Netlist Checker took 0.12 seconds (approximately) in total CPU time.
+INFO     : VDB Netlist Checker virtual memory usage: begin = 3167.56 MB, end = 3200.36 MB, delta = 32.8 MB
+INFO     : VDB Netlist Checker resident set memory usage: begin = 2749.47 MB, end = 2749.6 MB, delta = 0.128 MB
+INFO     : 	VDB Netlist Checker peak resident set memory usage = 2752.2 MB
 INFO     : ***** Ending VDB Netlist Checker ... *****
 INFO     : Reading core interface constraints file "/home/dev/Vicharak/DCT/dct_uart/outflow/dct_uart.interface.csv"
 INFO     : Successfully read core interface constraints file "/home/dev/Vicharak/DCT/dct_uart/outflow/dct_uart.interface.csv"
@@ -27,61 +27,71 @@ INFO     : Swept away 0 nets and 3 blocks in total.
 INFO     : Removed 0 LUT buffers
 INFO     : Sweept away 3 nodes
 INFO     : Successfully created VPR logical netlist from Verific binary DataBase file "/home/dev/Vicharak/DCT/dct_uart/outflow/dct_uart.dbg.vdb".
-INFO     : Netlist pre-processing took 0.584743 seconds.
-INFO     : 	Netlist pre-processing took 0.68 seconds (approximately) in total CPU time.
-INFO     : Netlist pre-processing virtual memory usage: begin = 3200.98 MB, end = 3246.15 MB, delta = 45.176 MB
-INFO     : Netlist pre-processing resident set memory usage: begin = 2701.84 MB, end = 2705.17 MB, delta = 3.328 MB
-INFO     : 	Netlist pre-processing peak resident set memory usage = 2705.17 MB
+INFO     : Netlist pre-processing took 0.656826 seconds.
+INFO     : 	Netlist pre-processing took 0.71 seconds (approximately) in total CPU time.
+INFO     : Netlist pre-processing virtual memory usage: begin = 3167.48 MB, end = 3200.36 MB, delta = 32.88 MB
+INFO     : Netlist pre-processing resident set memory usage: begin = 2748.7 MB, end = 2749.48 MB, delta = 0.776 MB
+INFO     : 	Netlist pre-processing peak resident set memory usage = 2752.2 MB
            ***** Ending stage netlist pre-processing *****
            
 ERROR    : int vprdb::Database::LoadClusteredNetlist() called when clustered netlist does not exist
 INFO     : Deleting any pre-existing troute trace files
 INFO     : Deleting any pre-existing troute trace files
-INFO     : --max_threads set to 10 
 INFO     : Deleting any pre-existing troute trace files
 INFO     : --max_threads set to 10 
            ***** Beginning stage netlist pre-processing ... *****
-INFO     : Successfully Read in Verific binary Netlist dump file "/home/dev/Vicharak/DCT/dct_uart/outflow/dct_uart.vdb".
+INFO     : Successfully Read in Verific binary Netlist dump file "/home/dev/Vicharak/DCT/dct_uart/outflow/dct_uart.dbg.vdb".
 INFO     : ***** Beginning VDB Netlist Checker ... *****
-INFO     : VDB Netlist Checker took 0.0363522 seconds.
-INFO     : 	VDB Netlist Checker took 0.07 seconds (approximately) in total CPU time.
-INFO     : VDB Netlist Checker virtual memory usage: begin = 3188.77 MB, end = 3213.37 MB, delta = 24.6 MB
-INFO     : VDB Netlist Checker resident set memory usage: begin = 556.832 MB, end = 556.96 MB, delta = 0.128 MB
-INFO     : 	VDB Netlist Checker peak resident set memory usage = 2705.17 MB
+INFO     : VDB Netlist Checker took 0.0378436 seconds.
+INFO     : 	VDB Netlist Checker took 0.06 seconds (approximately) in total CPU time.
+INFO     : VDB Netlist Checker virtual memory usage: begin = 3162.45 MB, end = 3199.35 MB, delta = 36.9 MB
+INFO     : VDB Netlist Checker resident set memory usage: begin = 552.5 MB, end = 552.628 MB, delta = 0.128 MB
+INFO     : 	VDB Netlist Checker peak resident set memory usage = 2753.53 MB
 INFO     : ***** Ending VDB Netlist Checker ... *****
 INFO     : Reading core interface constraints file "/home/dev/Vicharak/DCT/dct_uart/outflow/dct_uart.interface.csv"
 INFO     : Successfully read core interface constraints file "/home/dev/Vicharak/DCT/dct_uart/outflow/dct_uart.interface.csv"
 INFO     : Found 0 constant generator nets.
 INFO     : Pass 0: Swept away 0 nets with no fanout.
-INFO     : Pass 0: Swept away 0 blocks with no fanout.
-INFO     : Swept away 0 nets and 0 blocks in total.
+INFO     : logical_block #4(jtag_inst1_DRCK) has no fanout.
+INFO     : Removing input.
+INFO     : logical_block #6(jtag_inst1_RUNTEST) has no fanout.
+INFO     : Removing input.
+INFO     : logical_block #11(jtag_inst1_TMS) has no fanout.
+INFO     : Removing input.
+INFO     : Pass 0: Swept away 3 blocks with no fanout.
+INFO     : Pass 1: Swept away 0 nets with no fanout.
+INFO     : Pass 1: Swept away 0 blocks with no fanout.
+INFO     : Swept away 0 nets and 3 blocks in total.
 INFO     : Removed 0 LUT buffers
-INFO     : Successfully created VPR logical netlist from Verific binary DataBase file "/home/dev/Vicharak/DCT/dct_uart/outflow/dct_uart.vdb".
-INFO     : Netlist pre-processing took 0.304769 seconds.
-INFO     : 	Netlist pre-processing took 0.34 seconds (approximately) in total CPU time.
-INFO     : Netlist pre-processing virtual memory usage: begin = 3188.69 MB, end = 3213.37 MB, delta = 24.68 MB
-INFO     : Netlist pre-processing resident set memory usage: begin = 539.808 MB, end = 593.952 MB, delta = 54.144 MB
-INFO     : 	Netlist pre-processing peak resident set memory usage = 2705.17 MB
+INFO     : Sweept away 3 nodes
+INFO     : Successfully created VPR logical netlist from Verific binary DataBase file "/home/dev/Vicharak/DCT/dct_uart/outflow/dct_uart.dbg.vdb".
+INFO     : Netlist pre-processing took 0.344389 seconds.
+INFO     : 	Netlist pre-processing took 0.36 seconds (approximately) in total CPU time.
+INFO     : Netlist pre-processing virtual memory usage: begin = 3162.37 MB, end = 3199.35 MB, delta = 36.98 MB
+INFO     : Netlist pre-processing resident set memory usage: begin = 526.26 MB, end = 600.884 MB, delta = 74.624 MB
+INFO     : 	Netlist pre-processing peak resident set memory usage = 2753.53 MB
            ***** Ending stage netlist pre-processing *****
            
 INFO     : Read proto netlist file /home/dev/Vicharak/DCT/dct_uart/work_pnr/dct_uart.net_proto
-INFO     : Read proto netlist for file "/home/dev/Vicharak/DCT/dct_uart/work_pnr/dct_uart.net_proto" took 0.006958 seconds
-INFO     : Setup net and block data structure took 0.561147 seconds
+INFO     : Read proto netlist for file "/home/dev/Vicharak/DCT/dct_uart/work_pnr/dct_uart.net_proto" took 0.007646 seconds
+INFO     : Setup net and block data structure took 0.739685 seconds
 INFO     : Run checks after load placement.
+WARNING  : Clock source jtag_inst1_TCK does not use a dedicated clock pad, so extra clock insertion delay is added
+INFO     : The driver, jtag_inst1_RESET, of control net, jtag_inst1_RESET, should be placed at a dedicated control pad location.
 INFO     : Read ipin pattern from /home/dev/Downloads/efinity/2024.2/arch/./routing/ipin_oph.xml
 INFO     : Finished parsing ipin pattern file '/home/dev/Downloads/efinity/2024.2/arch/./routing/ipin_oph.xdb'.
 INFO     : Finished parsing switch_block file '/home/dev/Downloads/efinity/2024.2/arch/./routing/sb_connectivity_subset.xdb'.
-INFO     : BuildGraph process took 8.57767 seconds.
-INFO     : 	BuildGraph process took 8.5 seconds (approximately) in total CPU time.
-INFO     : BuildGraph process virtual memory usage: begin = 3213.37 MB, end = 3221.56 MB, delta = 8.196 MB
-INFO     : BuildGraph process resident set memory usage: begin = 769.116 MB, end = 2477.86 MB, delta = 1708.74 MB
-INFO     : 	BuildGraph process peak resident set memory usage = 2705.17 MB
-INFO     : check rr_graph process took 0.288409 seconds.
-INFO     : 	check rr_graph process took 0.3 seconds (approximately) in total CPU time.
-INFO     : check rr_graph process virtual memory usage: begin = 3221.56 MB, end = 3221.56 MB, delta = 0 MB
-INFO     : check rr_graph process resident set memory usage: begin = 2529.95 MB, end = 2555.94 MB, delta = 25.984 MB
-INFO     : 	check rr_graph process peak resident set memory usage = 2705.17 MB
-INFO     : Generated 6657621 RR nodes and 25217347 RR edges
+INFO     : BuildGraph process took 8.5549 seconds.
+INFO     : 	BuildGraph process took 8.46 seconds (approximately) in total CPU time.
+INFO     : BuildGraph process virtual memory usage: begin = 3199.35 MB, end = 3199.35 MB, delta = 0 MB
+INFO     : BuildGraph process resident set memory usage: begin = 782.844 MB, end = 2552.32 MB, delta = 1769.47 MB
+INFO     : 	BuildGraph process peak resident set memory usage = 2753.53 MB
+INFO     : check rr_graph process took 0.273715 seconds.
+INFO     : 	check rr_graph process took 0.28 seconds (approximately) in total CPU time.
+INFO     : check rr_graph process virtual memory usage: begin = 3199.35 MB, end = 3199.35 MB, delta = 0 MB
+INFO     : check rr_graph process resident set memory usage: begin = 2611.2 MB, end = 2637.18 MB, delta = 25.984 MB
+INFO     : 	check rr_graph process peak resident set memory usage = 2753.53 MB
+INFO     : Generated 6658698 RR nodes and 25219874 RR edges
 INFO     : This design has 0 global control net(s). See /home/dev/Vicharak/DCT/dct_uart/outflow/dct_uart.pnr.rpt for details.
 INFO     : Reading route file, /home/dev/Vicharak/DCT/dct_uart/outflow/dct_uart.route
 INFO     : Reading core interface constraints file "/home/dev/Vicharak/DCT/dct_uart/outflow/dct_uart.interface.csv"
@@ -90,16 +100,16 @@ INFO     : SDC file '/home/dev/Vicharak/DCT/dct_uart/constraint.sdc' parsed succ
 INFO     : 1 clocks (including virtual clocks), 0 inputs and 0 outputs were constrained.
 INFO     : Deleting any pre-existing troute trace files
 INFO     : Deleting any pre-existing troute trace files
-INFO     : Deleting any pre-existing troute trace files
+INFO     : --max_threads set to 10 
 INFO     : --max_threads set to 10 
            ***** Beginning stage netlist pre-processing ... *****
 INFO     : Successfully Read in Verific binary Netlist dump file "/home/dev/Vicharak/DCT/dct_uart/outflow/dct_uart.vdb".
 INFO     : ***** Beginning VDB Netlist Checker ... *****
-INFO     : VDB Netlist Checker took 0.0316036 seconds.
+INFO     : VDB Netlist Checker took 0.037935 seconds.
 INFO     : 	VDB Netlist Checker took 0.06 seconds (approximately) in total CPU time.
-INFO     : VDB Netlist Checker virtual memory usage: begin = 3209.3 MB, end = 3229.8 MB, delta = 20.5 MB
-INFO     : VDB Netlist Checker resident set memory usage: begin = 766.348 MB, end = 766.348 MB, delta = 0 MB
-INFO     : 	VDB Netlist Checker peak resident set memory usage = 2705.17 MB
+INFO     : VDB Netlist Checker virtual memory usage: begin = 3272.61 MB, end = 3293.11 MB, delta = 20.5 MB
+INFO     : VDB Netlist Checker resident set memory usage: begin = 554.156 MB, end = 554.284 MB, delta = 0.128 MB
+INFO     : 	VDB Netlist Checker peak resident set memory usage = 2857.86 MB
 INFO     : ***** Ending VDB Netlist Checker ... *****
 INFO     : Reading core interface constraints file "/home/dev/Vicharak/DCT/dct_uart/outflow/dct_uart.interface.csv"
 INFO     : Successfully read core interface constraints file "/home/dev/Vicharak/DCT/dct_uart/outflow/dct_uart.interface.csv"
@@ -109,31 +119,31 @@ INFO     : Pass 0: Swept away 0 blocks with no fanout.
 INFO     : Swept away 0 nets and 0 blocks in total.
 INFO     : Removed 0 LUT buffers
 INFO     : Successfully created VPR logical netlist from Verific binary DataBase file "/home/dev/Vicharak/DCT/dct_uart/outflow/dct_uart.vdb".
-INFO     : Netlist pre-processing took 0.264927 seconds.
-INFO     : 	Netlist pre-processing took 0.32 seconds (approximately) in total CPU time.
-INFO     : Netlist pre-processing virtual memory usage: begin = 3209.22 MB, end = 3229.8 MB, delta = 20.58 MB
-INFO     : Netlist pre-processing resident set memory usage: begin = 747.148 MB, end = 786.188 MB, delta = 39.04 MB
-INFO     : 	Netlist pre-processing peak resident set memory usage = 2705.17 MB
+INFO     : Netlist pre-processing took 0.294004 seconds.
+INFO     : 	Netlist pre-processing took 0.3 seconds (approximately) in total CPU time.
+INFO     : Netlist pre-processing virtual memory usage: begin = 3272.53 MB, end = 3293.11 MB, delta = 20.58 MB
+INFO     : Netlist pre-processing resident set memory usage: begin = 536.62 MB, end = 591.276 MB, delta = 54.656 MB
+INFO     : 	Netlist pre-processing peak resident set memory usage = 2857.86 MB
            ***** Ending stage netlist pre-processing *****
            
 INFO     : Read proto netlist file /home/dev/Vicharak/DCT/dct_uart/work_pnr/dct_uart.net_proto
-INFO     : Read proto netlist for file "/home/dev/Vicharak/DCT/dct_uart/work_pnr/dct_uart.net_proto" took 0.00678 seconds
-INFO     : Setup net and block data structure took 0.537537 seconds
+INFO     : Read proto netlist for file "/home/dev/Vicharak/DCT/dct_uart/work_pnr/dct_uart.net_proto" took 0.006019 seconds
+INFO     : Setup net and block data structure took 0.540886 seconds
 INFO     : Run checks after load placement.
 INFO     : Read ipin pattern from /home/dev/Downloads/efinity/2024.2/arch/./routing/ipin_oph.xml
 INFO     : Finished parsing ipin pattern file '/home/dev/Downloads/efinity/2024.2/arch/./routing/ipin_oph.xdb'.
 INFO     : Finished parsing switch_block file '/home/dev/Downloads/efinity/2024.2/arch/./routing/sb_connectivity_subset.xdb'.
-INFO     : BuildGraph process took 8.70473 seconds.
-INFO     : 	BuildGraph process took 8.73 seconds (approximately) in total CPU time.
-INFO     : BuildGraph process virtual memory usage: begin = 3237.99 MB, end = 3237.99 MB, delta = 0 MB
-INFO     : BuildGraph process resident set memory usage: begin = 872.468 MB, end = 2514.32 MB, delta = 1641.86 MB
-INFO     : 	BuildGraph process peak resident set memory usage = 2705.17 MB
-INFO     : check rr_graph process took 0.327881 seconds.
-INFO     : 	check rr_graph process took 0.34 seconds (approximately) in total CPU time.
-INFO     : check rr_graph process virtual memory usage: begin = 3237.99 MB, end = 3237.99 MB, delta = 0 MB
-INFO     : check rr_graph process resident set memory usage: begin = 2572.95 MB, end = 2572.95 MB, delta = 0 MB
-INFO     : 	check rr_graph process peak resident set memory usage = 2705.17 MB
-INFO     : Generated 6657621 RR nodes and 25217347 RR edges
+INFO     : BuildGraph process took 8.72715 seconds.
+INFO     : 	BuildGraph process took 8.44 seconds (approximately) in total CPU time.
+INFO     : BuildGraph process virtual memory usage: begin = 3293.11 MB, end = 3293.11 MB, delta = 0 MB
+INFO     : BuildGraph process resident set memory usage: begin = 768.268 MB, end = 2480.65 MB, delta = 1712.38 MB
+INFO     : 	BuildGraph process peak resident set memory usage = 2857.86 MB
+INFO     : check rr_graph process took 0.31461 seconds.
+INFO     : 	check rr_graph process took 0.32 seconds (approximately) in total CPU time.
+INFO     : check rr_graph process virtual memory usage: begin = 3293.11 MB, end = 3293.11 MB, delta = 0 MB
+INFO     : check rr_graph process resident set memory usage: begin = 2539.15 MB, end = 2571.66 MB, delta = 32.512 MB
+INFO     : 	check rr_graph process peak resident set memory usage = 2857.86 MB
+INFO     : Generated 6657677 RR nodes and 25217192 RR edges
 INFO     : This design has 0 global control net(s). See /home/dev/Vicharak/DCT/dct_uart/outflow/dct_uart.pnr.rpt for details.
 INFO     : Reading route file, /home/dev/Vicharak/DCT/dct_uart/outflow/dct_uart.route
 INFO     : Reading core interface constraints file "/home/dev/Vicharak/DCT/dct_uart/outflow/dct_uart.interface.csv"

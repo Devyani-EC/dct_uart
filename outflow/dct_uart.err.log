@@ -1,44 +1,12 @@
 
 ///////////////////////////////////
 // Efinity Synthesis Started 
-// Jul 11, 2025 18:56:54
+// Jul 15, 2025 16:18:38
 ///////////////////////////////////
 
 
 ///////////////////////////////////
 // Efinity Synthesis Started 
-// Jul 12, 2025 10:57:33
-///////////////////////////////////
-
-[EFX-0010 VERI-ERROR] syntax error near 'else' (VERI-1137) (/home/dev/Vicharak/DCT/dct_uart/buf-as.v:17)
-[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'else' used in incorrect context (VERI-2344) (/home/dev/Vicharak/DCT/dct_uart/buf-as.v:17)
-[EFX-0010 VERI-ERROR] module 'buff_as' is ignored due to previous errors (VERI-1072) (/home/dev/Vicharak/DCT/dct_uart/buf-as.v:27)
-
-///////////////////////////////////
-// Efinity Synthesis Started 
-// Jul 12, 2025 10:57:53
-///////////////////////////////////
-
-[EFX-0010 VERI-ERROR] syntax error near 'end' (VERI-1137) (/home/dev/Vicharak/DCT/dct_uart/add-sub.v:137)
-[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'end' used in incorrect context (VERI-2344) (/home/dev/Vicharak/DCT/dct_uart/add-sub.v:137)
-[EFX-0010 VERI-ERROR] module 'add_sub' is ignored due to previous errors (VERI-1072) (/home/dev/Vicharak/DCT/dct_uart/add-sub.v:228)
-[EFX-0010 VERI-ERROR] module 'FloatingCompare' is ignored due to previous errors (VERI-1072) (/home/dev/Vicharak/DCT/dct_uart/add-sub.v:250)
-[EFX-0010 VERI-ERROR] module 'mantissa_normalizer' is ignored due to previous errors (VERI-1072) (/home/dev/Vicharak/DCT/dct_uart/add-sub.v:299)
-
-///////////////////////////////////
-// Efinity Synthesis Started 
-// Jul 12, 2025 10:59:13
-///////////////////////////////////
-
-
-///////////////////////////////////
-// Efinity Synthesis Started 
-// Jul 12, 2025 12:20:41
-///////////////////////////////////
-
-
-///////////////////////////////////
-// Efinity Synthesis Started 
-// Jul 12, 2025 12:21:31
+// Jul 15, 2025 17:49:33
 ///////////////////////////////////
 

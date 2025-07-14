@@ -14,8 +14,8 @@ INFO     : 	io_weak_pullup                           = on
 INFO     : 	enable_remote_update                     = off
 INFO     : 	release_tri_then_reset                   = on
 INFO     : Finished generating "/home/dev/Vicharak/DCT/dct_uart/outflow/dct_uart.hex"
-INFO     : Efinix Bitstream Generator took 1.51503 seconds.
-INFO     : 	Efinix Bitstream Generator took 1.41 seconds (approximately) in total CPU time.
+INFO     : Efinix Bitstream Generator took 1.52717 seconds.
+INFO     : 	Efinix Bitstream Generator took 1.43 seconds (approximately) in total CPU time.
 INFO     : Efinix Bitstream Generator virtual memory usage: begin = 35.056 MB, end = 332.72 MB, delta = 297.664 MB
-INFO     : Efinix Bitstream Generator resident set memory usage: begin = 14.94 MB, end = 281.624 MB, delta = 266.684 MB
-INFO     : 	Efinix Bitstream Generator peak resident set memory usage = 544.176 MB
+INFO     : Efinix Bitstream Generator resident set memory usage: begin = 14.712 MB, end = 281.336 MB, delta = 266.624 MB
+INFO     : 	Efinix Bitstream Generator peak resident set memory usage = 319.54 MB

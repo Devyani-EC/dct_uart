@@ -41,11 +41,11 @@ INFO     : Analyzing Verilog file '/home/dev/Vicharak/DCT/dct_uart/rtl/mul.v' [V
 INFO     : Analyzing Verilog file '/home/dev/Vicharak/DCT/dct_uart/rtl/dct.v' [VERI-1482]
 INFO     : Analyzing Verilog file '/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v' [VERI-1482]
 INFO     : Analyzing Verilog file '/home/dev/Vicharak/DCT/dct_uart/rtl/uart_rx.v' [VERI-1482]
-INFO     : Analysis took 0.0111089 seconds.
+INFO     : Analysis took 0.0106255 seconds.
 INFO     : 	Analysis took 0.01 seconds (approximately) in total CPU time.
 INFO     : Analysis virtual memory usage: begin = 120.328 MB, end = 121.352 MB, delta = 1.024 MB
-INFO     : Analysis resident set memory usage: begin = 70.344 MB, end = 71.62 MB, delta = 1.276 MB
-INFO     : 	Analysis peak resident set memory usage = 545.296 MB
+INFO     : Analysis resident set memory usage: begin = 70.5 MB, end = 71.796 MB, delta = 1.296 MB
+INFO     : 	Analysis peak resident set memory usage = 308.468 MB
 INFO     : ***** Ending Analysis ... *****
 INFO     : ***** Beginning Elaboration ... *****
 INFO     : /home/dev/Vicharak/DCT/dct_uart/rtl/top.v(1): compiling module 'top' [VERI-1018]
@@ -79,11 +79,11 @@ WARNING  : /home/dev/Vicharak/DCT/dct_uart/rtl/mul.v(165): expression size 25 tr
 WARNING  : /home/dev/Vicharak/DCT/dct_uart/rtl/mul.v(166): expression size 11 truncated to fit in target size 10 [VERI-1209]
 WARNING  : /home/dev/Vicharak/DCT/dct_uart/rtl/mul.v(181): expression size 9 truncated to fit in target size 8 [VERI-1209]
 INFO     : /home/dev/Vicharak/DCT/dct_uart/rtl/buff-m.v(1): compiling module 'buff_mul' [VERI-1018]
-INFO     : Elaboration took 0.0516305 seconds.
-INFO     : 	Elaboration took 0.04 seconds (approximately) in total CPU time.
+INFO     : Elaboration took 0.0495473 seconds.
+INFO     : 	Elaboration took 0.05 seconds (approximately) in total CPU time.
 INFO     : Elaboration virtual memory usage: begin = 121.352 MB, end = 138.76 MB, delta = 17.408 MB
-INFO     : Elaboration resident set memory usage: begin = 71.62 MB, end = 89.976 MB, delta = 18.356 MB
-INFO     : 	Elaboration peak resident set memory usage = 545.296 MB
+INFO     : Elaboration resident set memory usage: begin = 71.796 MB, end = 90.152 MB, delta = 18.356 MB
+INFO     : 	Elaboration peak resident set memory usage = 308.468 MB
 INFO     : ***** Ending Elaboration ... *****
 INFO     : ... Setting Synthesis Option: mode=speed
 INFO     : ***** Beginning Reading Mapping Library ... *****
@@ -105,11 +105,11 @@ INFO     : /home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v(
 INFO     : /home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v(653): compiling module 'EFX_RAM10' [VERI-1018]
 INFO     : /home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v(754): compiling module 'EFX_DPRAM10' [VERI-1018]
 INFO     : /home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v(884): compiling module 'EFX_SRL8' [VERI-1018]
-INFO     : Reading Mapping Library took 0.00596024 seconds.
-INFO     : 	Reading Mapping Library took 0 seconds (approximately) in total CPU time.
+INFO     : Reading Mapping Library took 0.00587278 seconds.
+INFO     : 	Reading Mapping Library took 0.01 seconds (approximately) in total CPU time.
 INFO     : Reading Mapping Library virtual memory usage: begin = 140.808 MB, end = 140.808 MB, delta = 0 MB
-INFO     : Reading Mapping Library resident set memory usage: begin = 92.044 MB, end = 92.044 MB, delta = 0 MB
-INFO     : 	Reading Mapping Library peak resident set memory usage = 545.296 MB
+INFO     : Reading Mapping Library resident set memory usage: begin = 92.2 MB, end = 92.2 MB, delta = 0 MB
+INFO     : 	Reading Mapping Library peak resident set memory usage = 308.468 MB
 INFO     : ***** Ending Reading Mapping Library ... *****
 INFO     : ... Pre-synthesis checks begin
 WARNING  : Removing redundant signal : A[31]. (/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v:230) [EFX-0200]
@@ -234,74 +234,74 @@ INFO     : Module Instance 'm4_3' input pin 'a[14]' is tied to constant (=0). [E
 INFO     : Module Instance 'm4_3' input pin 'a[15]' is tied to constant (=0). [EFX-0266]
 INFO     : (The above message was generated too many times, subsequent similar messages will be muted.) [EFX-0266]
 INFO     : Module Instance 'm4_3' input pin 'a[16]' is tied to constant (=1). [EFX-0266]
-INFO     : ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 545296KB)
+INFO     : ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 308468KB)
 INFO     : ... NameSpace init begin
-INFO     : ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 545296KB)
+INFO     : ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 308468KB)
 INFO     : ... Mapping design "top"
 INFO     : ... Hierarchical pre-synthesis "uart_rx" begin
-INFO     : ... Hierarchical pre-synthesis "uart_rx" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 545296KB)
+INFO     : ... Hierarchical pre-synthesis "uart_rx" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 308468KB)
 INFO     : ... Hierarchical pre-synthesis "uart_tx" begin
-INFO     : ... Hierarchical pre-synthesis "uart_tx" end (Real time : 1s CPU user time : 0s CPU sys time : 0s MEM : 545296KB)
+INFO     : ... Hierarchical pre-synthesis "uart_tx" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 308468KB)
 INFO     : ... Hierarchical pre-synthesis "FloatingCompare" begin
-INFO     : ... Hierarchical pre-synthesis "FloatingCompare" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 545296KB)
+INFO     : ... Hierarchical pre-synthesis "FloatingCompare" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 308468KB)
 INFO     : ... Hierarchical pre-synthesis "mantissa_normalizer" begin
-INFO     : ... Hierarchical pre-synthesis "mantissa_normalizer" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 545296KB)
+INFO     : ... Hierarchical pre-synthesis "mantissa_normalizer" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 308468KB)
 INFO     : ... Hierarchical pre-synthesis "add_sub" begin
-INFO     : ... Hierarchical pre-synthesis "add_sub" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 545296KB)
+INFO     : ... Hierarchical pre-synthesis "add_sub" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 308468KB)
 INFO     : ... Hierarchical pre-synthesis "buff_as" begin
-INFO     : ... Hierarchical pre-synthesis "buff_as" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 545296KB)
+INFO     : ... Hierarchical pre-synthesis "buff_as" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 308468KB)
 INFO     : ... Hierarchical pre-synthesis "mul" begin
-INFO     : ... Hierarchical pre-synthesis "mul" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 545296KB)
+INFO     : ... Hierarchical pre-synthesis "mul" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 308468KB)
 INFO     : ... Hierarchical pre-synthesis "buff_mul" begin
-INFO     : ... Hierarchical pre-synthesis "buff_mul" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 545296KB)
+INFO     : ... Hierarchical pre-synthesis "buff_mul" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 308468KB)
 INFO     : ... Hierarchical pre-synthesis "dct_core" begin
-INFO     : ... Hierarchical pre-synthesis "dct_core" end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 545296KB)
+INFO     : ... Hierarchical pre-synthesis "dct_core" end (Real time : 1s CPU user time : 1s CPU sys time : 0s MEM : 308468KB)
 INFO     : ... Hierarchical pre-synthesis "top" begin
 INFO     : ... Clock Enable Synthesis Performed on 326 flops.
-INFO     : ... Hierarchical pre-synthesis "top" end (Real time : 2s CPU user time : 3s CPU sys time : 0s MEM : 545296KB)
+INFO     : ... Hierarchical pre-synthesis "top" end (Real time : 2s CPU user time : 3s CPU sys time : 0s MEM : 308468KB)
 INFO     : ... Flat optimizations begin
-INFO     : ... Flat optimizations end (Real time : 0s CPU user time : 3s CPU sys time : 0s MEM : 545296KB)
+INFO     : ... Flat optimizations end (Real time : 0s CPU user time : 3s CPU sys time : 0s MEM : 308468KB)
 INFO     : ... Flat synthesis begin
-INFO     : ... Flat synthesis end (Real time : 0s CPU user time : 4s CPU sys time : 0s MEM : 545296KB)
+INFO     : ... Flat synthesis end (Real time : 0s CPU user time : 3s CPU sys time : 0s MEM : 308468KB)
 INFO     : ... Flat optimizations begin
-INFO     : ... Flat optimizations end (Real time : 1s CPU user time : 4s CPU sys time : 0s MEM : 545296KB)
+INFO     : ... Flat optimizations end (Real time : 0s CPU user time : 4s CPU sys time : 0s MEM : 308468KB)
 INFO     : ... Check and break combinational loops begin
-INFO     : ... Check and break combinational loops end (Real time : 0s CPU user time : 4s CPU sys time : 0s MEM : 545296KB)
+INFO     : ... Check and break combinational loops end (Real time : 0s CPU user time : 4s CPU sys time : 0s MEM : 308468KB)
 INFO     : ... Sequential Optimization begin
-INFO     : ... Clock Network 'clk' with 14136 loads will be considered for sequential optimization.
-INFO     : ... Sequential Optimization deduced 3790 equivalent points.
-INFO     : ... Sequential Optimization end (Real time : 48s CPU user time : 54s CPU sys time : 0s MEM : 545296KB)
+INFO     : ... Clock Network 'clk' with 14100 loads will be considered for sequential optimization.
+INFO     : ... Sequential Optimization deduced 3619 equivalent points.
+INFO     : ... Sequential Optimization end (Real time : 49s CPU user time : 54s CPU sys time : 0s MEM : 427456KB)
 INFO     : ... Setup for logic synthesis begin
-INFO     : ... Setup for logic synthesis end (Real time : 1s CPU user time : 54s CPU sys time : 0s MEM : 545296KB)
+INFO     : ... Setup for logic synthesis end (Real time : 0s CPU user time : 54s CPU sys time : 0s MEM : 428008KB)
 INFO     : ... LUT mapping begin
-INFO     : ... LS, strategy: 3, nd: 11843, ed: 38532, lv: 8, pw: 24838.60
-INFO     : ... LUT mapping end (Real time : 39s CPU user time : 94s CPU sys time : 0s MEM : 545296KB)
+INFO     : ... LS, strategy: 3, nd: 11976, ed: 39001, lv: 8, pw: 25057.42
+INFO     : ... LUT mapping end (Real time : 39s CPU user time : 93s CPU sys time : 0s MEM : 432668KB)
 INFO     : ... Post-synthesis Verific netlist creation begin
-INFO     : ... Post-synthesis Verific netlist creation end (Real time : 1s CPU user time : 94s CPU sys time : 0s MEM : 545296KB)
+INFO     : ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 93s CPU sys time : 0s MEM : 432668KB)
 INFO     : ... Postmap Retiming Optimization begin
-INFO     : ... Clock Network 'clk~clk' with 13658 loads will be considered for retiming optimization.
-INFO     : ... Performed 5 retime moves.
-INFO     : ... Postmap Retiming Optimization end (Real time : 47s CPU user time : 142s CPU sys time : 0s MEM : 545296KB)
+INFO     : ... Clock Network 'clk~clk' with 13739 loads will be considered for retiming optimization.
+INFO     : ... Performed 4 retime moves.
+INFO     : ... Postmap Retiming Optimization end (Real time : 48s CPU user time : 141s CPU sys time : 0s MEM : 526544KB)
 INFO     : ***** Beginning VDB Netlist Checker ... *****
-INFO     : VDB Netlist Checker took 0.0353338 seconds.
+INFO     : VDB Netlist Checker took 0.0346791 seconds.
 INFO     : 	VDB Netlist Checker took 0.06 seconds (approximately) in total CPU time.
-INFO     : VDB Netlist Checker virtual memory usage: begin = 638.008 MB, end = 638.008 MB, delta = 0 MB
-INFO     : VDB Netlist Checker resident set memory usage: begin = 523.956 MB, end = 524.084 MB, delta = 0.128 MB
-INFO     : 	VDB Netlist Checker peak resident set memory usage = 545.296 MB
+INFO     : VDB Netlist Checker virtual memory usage: begin = 639.24 MB, end = 639.24 MB, delta = 0 MB
+INFO     : VDB Netlist Checker resident set memory usage: begin = 527.032 MB, end = 527.16 MB, delta = 0.128 MB
+INFO     : 	VDB Netlist Checker peak resident set memory usage = 527.16 MB
 INFO     : ***** Ending VDB Netlist Checker ... *****
 INFO     : ... Post-Map Verilog Writer begin
 INFO     : Writing netlist 'top' to Verilog file '/home/dev/Vicharak/DCT/dct_uart/outflow/dct_uart.map.v' [VDB-1030]
-INFO     : ... Post-Map Verilog Writer end (Real time : 0s CPU user time : 143s CPU sys time : 0s MEM : 545296KB)
+INFO     : ... Post-Map Verilog Writer end (Real time : 0s CPU user time : 143s CPU sys time : 0s MEM : 527160KB)
 INFO     : Resource Summary 
 INFO     : =============================== 
-INFO     : EFX_ADD         : 	2120
-INFO     : EFX_LUT4        : 	11843
+INFO     : EFX_ADD         : 	2148
+INFO     : EFX_LUT4        : 	11976
 INFO     : EFX_MULT        : 	20
-INFO     : EFX_FF          : 	13958
+INFO     : EFX_FF          : 	14044
 INFO     : EFX_GBUFCE      : 	1
 INFO     : =============================== 
-INFO     : The entire flow of EFX_MAP took 140.855 seconds.
-INFO     : 	The entire flow of EFX_MAP took 143.44 seconds (approximately) in total CPU time.
-INFO     : The entire flow of EFX_MAP virtual memory usage: begin = 84.168 MB, end = 638.008 MB, delta = 553.84 MB
-INFO     : The entire flow of EFX_MAP resident set memory usage: begin = 26.312 MB, end = 524.084 MB, delta = 497.772 MB
-INFO     : 	The entire flow of EFX_MAP peak resident set memory usage = 545.296 MB
+INFO     : The entire flow of EFX_MAP took 140.746 seconds.
+INFO     : 	The entire flow of EFX_MAP took 143.16 seconds (approximately) in total CPU time.
+INFO     : The entire flow of EFX_MAP virtual memory usage: begin = 84.168 MB, end = 639.24 MB, delta = 555.072 MB
+INFO     : The entire flow of EFX_MAP resident set memory usage: begin = 26.248 MB, end = 527.16 MB, delta = 500.912 MB
+INFO     : 	The entire flow of EFX_MAP peak resident set memory usage = 527.16 MB

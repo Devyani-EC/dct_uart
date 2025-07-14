@@ -9,5 +9,5 @@ Writing out verilog template file
 Writing out option register file
 Writing out boundary scan description file
 Writing out LPF
-Remove the auto-generated interface file. (file:/home/efx/hdd/efinity_company_projects/22239c527c/dct_uart.dbg.peri.xml)
+Remove the auto-generated interface file. (file:/home/efx/hdd/efinity_company_projects/4aff299aaa/dct_uart.dbg.peri.xml)
 Stage completed: interface

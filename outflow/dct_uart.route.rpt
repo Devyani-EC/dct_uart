@@ -1,12 +1,12 @@
 
 Efinix FPGA Placement and Routing.
 Version: 2024.2.294 
-Date: Sat Jul 12 12:24:33 2025
+Date: Tue Jul 15 18:21:31 2025
 
 Copyright (C) 2013 - 2024 Efinix, Inc. All rights reserved.
  
 Family: Trion 
 Device: T120F324
 Top-level Entity Name: dct_uart
-Elapsed time for routing: 0 hours 0 minutes 36 seconds
-Elapsed time for entire flow: 0 hours 1 minutes 27 seconds
+Elapsed time for routing: 0 hours 0 minutes 41 seconds
+Elapsed time for entire flow: 0 hours 1 minutes 32 seconds

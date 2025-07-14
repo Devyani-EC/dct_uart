@@ -90,7 +90,7 @@ always @(posedge clk) begin
         A1_mantissa <= (A0[30:23] == 8'h00) ? {1'b0, A0[22:0]} : {1'b1, A0[22:0]};
         B1_mantissa <= (B0[30:23] == 8'h00) ? {1'b0, B0[22:0]} : {1'b1, B0[22:0]};
         op_add1 <= op_add0;
-        comp_se <= comp_fi; 
+        comp_se <= comp_fr; 
     end else begin
         A1_sign <= 0;
         B1_sign <= 0;

@@ -1,34 +1,32 @@
 
 ///////////////////////////////////
 // Efinity Synthesis Started 
-// Jul 11, 2025 19:01:20
+// Jul 15, 2025 16:20:43
 ///////////////////////////////////
 
 [EFX-0012 VERI-INFO] default VHDL library search path is now "/home/efx/hdd/shreeyash/efinity/2024.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
-[EFX-0012 VERI-INFO] undeclared symbol 'la_capture_mask', assumed default net type 'wire' (VERI-2561) (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:4476)
-[EFX-0012 VERI-INFO] undeclared symbol 'next_segment_pointer_eq', assumed default net type 'wire' (VERI-2561) (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:4845)
-[EFX-0012 VERI-INFO] undeclared symbol 'next_segment_msb_xor', assumed default net type 'wire' (VERI-2561) (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:4846)
-[EFX-0011 VERI-WARNING] port 'probe26' remains unconnected for this instance (VERI-1927) (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:204)
-[EFX-0012 VERI-INFO] compiling module 'edb_top' (VERI-1018) (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:10)
-[EFX-0012 VERI-INFO] compiling module 'edb_la_top_renamed_due_excessive_length_1' (VERI-1018) (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:577)
-[EFX-0012 VERI-INFO] compiling module 'edb_adbg_crc32' (VERI-1018) (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:278)
-[EFX-0012 VERI-INFO] compiling module 'compare_unit(WIDTH=11'b0100000000,PIPE=1)' (VERI-1018) (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:5575)
-[EFX-0012 VERI-INFO] compiling module 'compare_unit(WIDTH=11'b01,PIPE=1)' (VERI-1018) (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:5575)
-[EFX-0012 VERI-INFO] compiling module 'compare_unit(WIDTH=11'b0100,PIPE=1)' (VERI-1018) (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:5575)
-[EFX-0012 VERI-INFO] compiling module 'compare_unit(WIDTH=11'b01000,PIPE=1)' (VERI-1018) (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:5575)
-[EFX-0012 VERI-INFO] compiling module 'compare_unit(WIDTH=11'b0110,PIPE=1)' (VERI-1018) (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:5575)
-[EFX-0012 VERI-INFO] compiling module 'compare_unit(WIDTH=11'b010,PIPE=1)' (VERI-1018) (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:5575)
-[EFX-0012 VERI-INFO] compiling module 'compare_unit(WIDTH=11'b01111,PIPE=1)' (VERI-1018) (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:5575)
-[EFX-0012 VERI-INFO] compiling module 'compare_unit(WIDTH=11'b011,PIPE=1)' (VERI-1018) (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:5575)
-[EFX-0012 VERI-INFO] compiling module 'trigger_unit(WIDTH=32'b011010,PIPE=1)' (VERI-1018) (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:5780)
-[EFX-0012 VERI-INFO] compiling module 'trigger_skipper' (VERI-1018) (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:5905)
-[EFX-0012 VERI-INFO] compiling module 'la_biu(CAPTURE_WIDTH=32'b011001001100)' (VERI-1018) (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:4922)
-[EFX-0012 VERI-INFO] compiling module 'fifo_with_read(DATA_WIDTH=32'b011001001101)' (VERI-1018) (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:4664)
-[EFX-0012 VERI-INFO] compiling module 'fifo_address_trancode_unit' (VERI-1018) (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:4614)
-[EFX-0012 VERI-INFO] compiling module 'edb_simple_dual_port_ram(DATA_WIDTH=32'b011001001101,ADDR_WIDTH=10,RAM_INIT_FILE="")' (VERI-1018) (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:487)
-[EFX-0012 VERI-INFO] extracting RAM for identifier 'ram' (VERI-2571) (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:502)
-[EFX-0012 VERI-INFO] compiling module 'debug_hub' (VERI-1018) (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:356)
-[EFX-0011 VERI-WARNING] input port 'probe26[0]' remains unconnected for this instance (VDB-1053) (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:158)
+[EFX-0012 VERI-INFO] undeclared symbol 'la_capture_mask', assumed default net type 'wire' (VERI-2561) (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:4624)
+[EFX-0012 VERI-INFO] undeclared symbol 'next_segment_pointer_eq', assumed default net type 'wire' (VERI-2561) (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:4993)
+[EFX-0012 VERI-INFO] undeclared symbol 'next_segment_msb_xor', assumed default net type 'wire' (VERI-2561) (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:4994)
+[EFX-0011 VERI-WARNING] port 'probe63' remains unconnected for this instance (VERI-1927) (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:352)
+[EFX-0012 VERI-INFO] compiling module 'edb_top' (VERI-1018) (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:10)
+[EFX-0012 VERI-INFO] compiling module 'edb_la_top_renamed_due_excessive_length_1' (VERI-1018) (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:725)
+[EFX-0012 VERI-INFO] compiling module 'edb_adbg_crc32' (VERI-1018) (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:426)
+[EFX-0012 VERI-INFO] compiling module 'compare_unit(WIDTH=11'b0100,PIPE=1)' (VERI-1018) (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:5723)
+[EFX-0012 VERI-INFO] compiling module 'compare_unit(WIDTH=11'b0110,PIPE=1)' (VERI-1018) (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:5723)
+[EFX-0012 VERI-INFO] compiling module 'compare_unit(WIDTH=11'b0111,PIPE=1)' (VERI-1018) (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:5723)
+[EFX-0012 VERI-INFO] compiling module 'compare_unit(WIDTH=11'b01000,PIPE=1)' (VERI-1018) (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:5723)
+[EFX-0012 VERI-INFO] compiling module 'compare_unit(WIDTH=11'b0100000,PIPE=1)' (VERI-1018) (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:5723)
+[EFX-0012 VERI-INFO] compiling module 'compare_unit(WIDTH=11'b0100000000,PIPE=1)' (VERI-1018) (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:5723)
+[EFX-0012 VERI-INFO] compiling module 'trigger_unit(WIDTH=32'b0111111,PIPE=1)' (VERI-1018) (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:5928)
+[EFX-0012 VERI-INFO] compiling module 'trigger_skipper' (VERI-1018) (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:6053)
+[EFX-0012 VERI-INFO] compiling module 'la_biu(CAPTURE_WIDTH=32'b0100001011001)' (VERI-1018) (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:5070)
+[EFX-0012 VERI-INFO] compiling module 'fifo_with_read(DATA_WIDTH=32'b0100001011010)' (VERI-1018) (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:4812)
+[EFX-0012 VERI-INFO] compiling module 'fifo_address_trancode_unit' (VERI-1018) (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:4762)
+[EFX-0012 VERI-INFO] compiling module 'edb_simple_dual_port_ram(DATA_WIDTH=32'b0100001011010,ADDR_WIDTH=10,RAM_INIT_FILE="")' (VERI-1018) (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:635)
+[EFX-0012 VERI-INFO] extracting RAM for identifier 'ram' (VERI-2571) (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:650)
+[EFX-0012 VERI-INFO] compiling module 'debug_hub' (VERI-1018) (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:504)
+[EFX-0011 VERI-WARNING] input port 'probe63[0]' remains unconnected for this instance (VDB-1053) (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:269)
 [EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
 [EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (/home/efx/hdd/shreeyash/efinity/2024.2/sim_models/maplib/efinix_maplib.v:8)
 [EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (/home/efx/hdd/shreeyash/efinity/2024.2/sim_models/maplib/efinix_maplib.v:21)
@@ -48,145 +46,141 @@
 [EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (/home/efx/hdd/shreeyash/efinity/2024.2/sim_models/maplib/efinix_maplib.v:754)
 [EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (/home/efx/hdd/shreeyash/efinity/2024.2/sim_models/maplib/efinix_maplib.v:884)
 [EFX-0000 INFO] ... Pre-synthesis checks begin
-[EFX-0200 WARNING] Removing redundant signal : compared_in[0]. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:5581)
-[EFX-0200 WARNING] Removing redundant signal : mask_in[0]. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:5582)
-[EFX-0200 WARNING] Removing redundant signal : trigger_in. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:5792)
-[EFX-0677 INFO] ... Memory 'ram' is not initialized, assuming empty initial contents. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:502)
-[EFX-0200 WARNING] Removing redundant signal : din[1612]. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:4677)
-[EFX-0200 WARNING] Removing redundant signal : trig_out. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:4958)
-[EFX-0200 WARNING] Removing redundant signal : trig_out_ack. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:4959)
-[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:1110)
-[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:1112)
-[EFX-0200 WARNING] Removing redundant signal : bscan_SEL. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:1113)
-[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:1117)
-[EFX-0200 WARNING] Removing redundant signal : trig_in_ack. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:1128)
-[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[25]. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:3542)
-[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[24]. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:3542)
-[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[23]. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:3542)
-[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[22]. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:3542)
-[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[21]. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:3542)
-[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[20]. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:3542)
-[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[19]. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:3542)
-[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[18]. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:3542)
-[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[17]. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:3542)
+[EFX-0200 WARNING] Removing redundant signal : trigger_in. (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:5940)
+[EFX-0677 INFO] ... Memory 'ram' is not initialized, assuming empty initial contents. (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:650)
+[EFX-0200 WARNING] Removing redundant signal : din[2137]. (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:4825)
+[EFX-0200 WARNING] Removing redundant signal : trig_out. (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:5106)
+[EFX-0200 WARNING] Removing redundant signal : trig_out_ack. (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:5107)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:1258)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:1260)
+[EFX-0200 WARNING] Removing redundant signal : bscan_SEL. (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:1261)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:1265)
+[EFX-0200 WARNING] Removing redundant signal : trig_in_ack. (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:1276)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[62]. (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:3690)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[61]. (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:3690)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[60]. (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:3690)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[59]. (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:3690)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[58]. (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:3690)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[57]. (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:3690)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[56]. (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:3690)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[55]. (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:3690)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[54]. (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:3690)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[53]. (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:3690)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[52]. (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:3690)
 [EFX-0266 INFO] Module Instance 'la0' input pin 'trig_in' is tied to constant (=0).
 [EFX-0266 INFO] Module Instance 'la0' input pin 'trig_out_ack' is tied to constant (=0).
-[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe26[0]'. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:158)
-[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe27[0]'. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:158)
-[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe28[0]'. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:158)
-[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe29[0]'. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:158)
-[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe30[0]'. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:158)
-[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe31[0]'. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:158)
-[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe32[0]'. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:158)
-[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe33[0]'. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:158)
-[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe34[0]'. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:158)
-[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe35[0]'. (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:158)
-[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 190896KB)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe63[0]'. (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:269)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe64[0]'. (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:269)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe65[0]'. (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:269)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe66[0]'. (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:269)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe67[0]'. (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:269)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe68[0]'. (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:269)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe69[0]'. (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:269)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe70[0]'. (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:269)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe71[0]'. (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:269)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe72[0]'. (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:269)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 242252KB)
 [EFX-0000 INFO] ... NameSpace init begin
-[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 190896KB)
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 242508KB)
 [EFX-0000 INFO] ... Mapping design "edb_top"
 [EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_adbg_crc32" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_adbg_crc32" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 192032KB)
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b0100000000,PIPE=1)" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b0100000000,PIPE=1)" end (Real time : 1s CPU user time : 2s CPU sys time : 0s MEM : 192032KB)
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01,PIPE=1)" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01,PIPE=1)" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 192032KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_adbg_crc32" end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 243080KB)
 [EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b0100,PIPE=1)" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b0100,PIPE=1)" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 192032KB)
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01000,PIPE=1)" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01000,PIPE=1)" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 192032KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b0100,PIPE=1)" end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 243080KB)
 [EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b0110,PIPE=1)" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b0110,PIPE=1)" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 192032KB)
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b010,PIPE=1)" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b010,PIPE=1)" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 192032KB)
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01111,PIPE=1)" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01111,PIPE=1)" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 192032KB)
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b011,PIPE=1)" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b011,PIPE=1)" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 192032KB)
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_unit(WIDTH=32'b011010,PIPE=1)" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_unit(WIDTH=32'b011010,PIPE=1)" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 192032KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b0110,PIPE=1)" end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 243080KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b0111,PIPE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b0111,PIPE=1)" end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 243080KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01000,PIPE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01000,PIPE=1)" end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 243080KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b0100000,PIPE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b0100000,PIPE=1)" end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 243080KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b0100000000,PIPE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b0100000000,PIPE=1)" end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 243080KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_unit(WIDTH=32'b0111111,PIPE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_unit(WIDTH=32'b0111111,PIPE=1)" end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 243080KB)
 [EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_skipper" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_skipper" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 192288KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_skipper" end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 243388KB)
 [EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_address_trancode_unit" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_address_trancode_unit" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 192288KB)
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_simple_dual_port_ram(DATA_WIDTH=32'b011001001101,ADDR_WIDTH=10,RAM_INIT_FILE="")" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_simple_dual_port_ram(DATA_WIDTH=32'b011001001101,ADDR_WIDTH=10,RAM_INIT_FILE="")" end (Real time : 1s CPU user time : 3s CPU sys time : 0s MEM : 513392KB)
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_with_read(DATA_WIDTH=32'b011001001101)" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_with_read(DATA_WIDTH=32'b011001001101)" end (Real time : 1s CPU user time : 3s CPU sys time : 0s MEM : 513392KB)
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "la_biu(CAPTURE_WIDTH=32'b011001001100)" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "la_biu(CAPTURE_WIDTH=32'b011001001100)" end (Real time : 1s CPU user time : 4s CPU sys time : 0s MEM : 513392KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_address_trancode_unit" end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 243388KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_simple_dual_port_ram(DATA_WIDTH=32'b0100001011010,ADDR_WIDTH=10,RAM_INIT_FILE="")" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_simple_dual_port_ram(DATA_WIDTH=32'b0100001011010,ADDR_WIDTH=10,RAM_INIT_FILE="")" end (Real time : 1s CPU user time : 2s CPU sys time : 0s MEM : 810068KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_with_read(DATA_WIDTH=32'b0100001011010)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_with_read(DATA_WIDTH=32'b0100001011010)" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 810068KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "la_biu(CAPTURE_WIDTH=32'b0100001011001)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "la_biu(CAPTURE_WIDTH=32'b0100001011001)" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 810068KB)
 [EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_la_top_renamed_due_excessive_length_1" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_la_top_renamed_due_excessive_length_1" end (Real time : 6s CPU user time : 8s CPU sys time : 0s MEM : 513392KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_la_top_renamed_due_excessive_length_1" end (Real time : 1s CPU user time : 4s CPU sys time : 0s MEM : 811092KB)
 [EFX-0000 INFO] ... Hierarchical pre-synthesis "debug_hub" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "debug_hub" end (Real time : 0s CPU user time : 8s CPU sys time : 0s MEM : 513392KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "debug_hub" end (Real time : 0s CPU user time : 4s CPU sys time : 0s MEM : 811092KB)
 [EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_top" begin
 [EFX-0000 INFO] ... Clock Enable Synthesis Performed on 129 flops.
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_top" end (Real time : 6s CPU user time : 13s CPU sys time : 0s MEM : 513392KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_top" end (Real time : 1s CPU user time : 5s CPU sys time : 0s MEM : 811092KB)
 [EFX-0000 INFO] ... Flat optimizations begin
-[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 14s CPU sys time : 0s MEM : 513928KB)
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 5s CPU sys time : 0s MEM : 811092KB)
 [EFX-0000 INFO] ... Flat synthesis begin
-[EFX-0000 INFO] ... Flat synthesis end (Real time : 1s CPU user time : 14s CPU sys time : 0s MEM : 513928KB)
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 6s CPU sys time : 0s MEM : 811092KB)
 [EFX-0000 INFO] ... Flat optimizations begin
-[EFX-0000 INFO] ... Flat optimizations end (Real time : 1s CPU user time : 15s CPU sys time : 0s MEM : 513928KB)
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 6s CPU sys time : 0s MEM : 811092KB)
 [EFX-0000 INFO] ... Check and break combinational loops begin
-[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 15s CPU sys time : 0s MEM : 513928KB)
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 6s CPU sys time : 0s MEM : 811092KB)
 [EFX-0000 INFO] ... Sequential Optimization begin
-[EFX-0000 INFO] ... Clock Network 'la0_clk' with 11597 loads will be considered for sequential optimization.
-[EFX-0000 INFO] ... Clock Network 'bscan_TCK' with 3734 loads will be considered for sequential optimization.
-[EFX-0000 INFO] ... Sequential Optimization deduced 210 equivalent points.
-[EFX-0000 INFO] ... Sequential Optimization end (Real time : 64s CPU user time : 53s CPU sys time : 0s MEM : 574040KB)
+[EFX-0000 INFO] ... Clock Network 'la0_clk' with 15372 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network 'bscan_TCK' with 4916 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 263 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 71s CPU user time : 78s CPU sys time : 0s MEM : 817232KB)
 [EFX-0000 INFO] ... Setup for logic synthesis begin
-[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 1s CPU user time : 53s CPU sys time : 0s MEM : 574040KB)
+[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 0s CPU user time : 78s CPU sys time : 0s MEM : 817232KB)
 [EFX-0000 INFO] ... LUT mapping begin
-[EFX-0000 INFO] ... LS, strategy: 3, nd: 9884, ed: 30807, lv: 8, pw: 21186.08
-[EFX-0000 INFO] ... LUT mapping end (Real time : 40s CPU user time : 77s CPU sys time : 1s MEM : 577636KB)
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 13018, ed: 40871, lv: 8, pw: 28178.71
+[EFX-0000 INFO] ... LUT mapping end (Real time : 21s CPU user time : 99s CPU sys time : 0s MEM : 817232KB)
 [EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
-[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 1s CPU user time : 77s CPU sys time : 1s MEM : 577636KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 99s CPU sys time : 0s MEM : 817232KB)
 [EFX-0000 INFO] ... Postmap Retiming Optimization begin
-[EFX-0000 INFO] ... Clock Network 'la0_clk~la0_clk' with 11597 loads will be considered for retiming optimization.
-[EFX-0000 INFO] ... Clock Network 'bscan_TCK~bscan_TCK' with 3734 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network 'la0_clk~la0_clk' with 15372 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network 'bscan_TCK~bscan_TCK' with 4916 loads will be considered for retiming optimization.
 [EFX-0000 INFO] ... Performed 0 retime moves.
-[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 54s CPU user time : 111s CPU sys time : 1s MEM : 577636KB)
-[EFX-0011 VERI-WARNING] Input/inout port bscan_DRCK is unconnected and will be removed. (VDB-8003) (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:13)
-[EFX-0011 VERI-WARNING] Input/inout port bscan_RUNTEST is unconnected and will be removed. (VDB-8003) (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:15)
-[EFX-0011 VERI-WARNING] Input/inout port bscan_TMS is unconnected and will be removed. (VDB-8003) (/home/efx/hdd/efinity_company_projects/22239c527c/work_dbg/debug_top.v:20)
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 68s CPU user time : 168s CPU sys time : 0s MEM : 826200KB)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_DRCK is unconnected and will be removed. (VDB-8003) (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:13)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_RUNTEST is unconnected and will be removed. (VDB-8003) (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:15)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_TMS is unconnected and will be removed. (VDB-8003) (/home/efx/hdd/efinity_company_projects/4aff299aaa/work_dbg/debug_top.v:20)
 [EFX-0012 VERI-INFO] Found 3 warnings in the post-synthesis netlist. 
 [EFX-0000 INFO] Resource Summary 
 [EFX-0000 INFO] =============================== 
 [EFX-0000 INFO] EFX_ADD         : 	155
-[EFX-0000 INFO] EFX_LUT4        : 	9870
-[EFX-0000 INFO] EFX_FF          : 	15322
-[EFX-0000 INFO] EFX_RAM_5K      : 	323
+[EFX-0000 INFO] EFX_LUT4        : 	13004
+[EFX-0000 INFO] EFX_FF          : 	20279
+[EFX-0000 INFO] EFX_RAM_5K      : 	428
 [EFX-0000 INFO] EFX_GBUFCE      : 	2
 [EFX-0000 INFO] =============================== 
 
 ///////////////////////////////////
 // Efinity Synthesis Started 
-// Jul 11, 2025 19:04:29
+// Jul 15, 2025 16:23:31
 ///////////////////////////////////
 
 [EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
 [EFX-0000 INFO] ... Pre-synthesis checks begin
-[EFX-0200 WARNING] Removing redundant signal : A[31]. (/home/efx/hdd/efinity_company_projects/22239c527c/add-sub.v:250)
-[EFX-0200 WARNING] Removing redundant signal : B[31]. (/home/efx/hdd/efinity_company_projects/22239c527c/add-sub.v:251)
-[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros[4]. (/home/efx/hdd/efinity_company_projects/22239c527c/add-sub.v:283)
-[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros[3]. (/home/efx/hdd/efinity_company_projects/22239c527c/add-sub.v:283)
-[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros[2]. (/home/efx/hdd/efinity_company_projects/22239c527c/add-sub.v:283)
-[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros[1]. (/home/efx/hdd/efinity_company_projects/22239c527c/add-sub.v:283)
-[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros[0]. (/home/efx/hdd/efinity_company_projects/22239c527c/add-sub.v:283)
-[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros.in[23]. (/home/efx/hdd/efinity_company_projects/22239c527c/add-sub.v:284)
-[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros.in[22]. (/home/efx/hdd/efinity_company_projects/22239c527c/add-sub.v:284)
-[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros.in[21]. (/home/efx/hdd/efinity_company_projects/22239c527c/add-sub.v:284)
-[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros.in[20]. (/home/efx/hdd/efinity_company_projects/22239c527c/add-sub.v:284)
-[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros.in[19]. (/home/efx/hdd/efinity_company_projects/22239c527c/add-sub.v:284)
-[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros.in[18]. (/home/efx/hdd/efinity_company_projects/22239c527c/add-sub.v:284)
-[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros.in[17]. (/home/efx/hdd/efinity_company_projects/22239c527c/add-sub.v:284)
-[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros.in[16]. (/home/efx/hdd/efinity_company_projects/22239c527c/add-sub.v:284)
-[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros.in[15]. (/home/efx/hdd/efinity_company_projects/22239c527c/add-sub.v:284)
-[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros.in[14]. (/home/efx/hdd/efinity_company_projects/22239c527c/add-sub.v:284)
-[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros.in[13]. (/home/efx/hdd/efinity_company_projects/22239c527c/add-sub.v:284)
-[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros.in[12]. (/home/efx/hdd/efinity_company_projects/22239c527c/add-sub.v:284)
-[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros.in[11]. (/home/efx/hdd/efinity_company_projects/22239c527c/add-sub.v:284)
+[EFX-0200 WARNING] Removing redundant signal : A[31]. (/home/efx/hdd/efinity_company_projects/4aff299aaa/rtl/add-sub.v:230)
+[EFX-0200 WARNING] Removing redundant signal : B[31]. (/home/efx/hdd/efinity_company_projects/4aff299aaa/rtl/add-sub.v:231)
+[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros[4]. (/home/efx/hdd/efinity_company_projects/4aff299aaa/rtl/add-sub.v:259)
+[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros[3]. (/home/efx/hdd/efinity_company_projects/4aff299aaa/rtl/add-sub.v:259)
+[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros[2]. (/home/efx/hdd/efinity_company_projects/4aff299aaa/rtl/add-sub.v:259)
+[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros[1]. (/home/efx/hdd/efinity_company_projects/4aff299aaa/rtl/add-sub.v:259)
+[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros[0]. (/home/efx/hdd/efinity_company_projects/4aff299aaa/rtl/add-sub.v:259)
+[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros.in[23]. (/home/efx/hdd/efinity_company_projects/4aff299aaa/rtl/add-sub.v:260)
+[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros.in[22]. (/home/efx/hdd/efinity_company_projects/4aff299aaa/rtl/add-sub.v:260)
+[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros.in[21]. (/home/efx/hdd/efinity_company_projects/4aff299aaa/rtl/add-sub.v:260)
+[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros.in[20]. (/home/efx/hdd/efinity_company_projects/4aff299aaa/rtl/add-sub.v:260)
+[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros.in[19]. (/home/efx/hdd/efinity_company_projects/4aff299aaa/rtl/add-sub.v:260)
+[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros.in[18]. (/home/efx/hdd/efinity_company_projects/4aff299aaa/rtl/add-sub.v:260)
+[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros.in[17]. (/home/efx/hdd/efinity_company_projects/4aff299aaa/rtl/add-sub.v:260)
+[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros.in[16]. (/home/efx/hdd/efinity_company_projects/4aff299aaa/rtl/add-sub.v:260)
+[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros.in[15]. (/home/efx/hdd/efinity_company_projects/4aff299aaa/rtl/add-sub.v:260)
+[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros.in[14]. (/home/efx/hdd/efinity_company_projects/4aff299aaa/rtl/add-sub.v:260)
+[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros.in[13]. (/home/efx/hdd/efinity_company_projects/4aff299aaa/rtl/add-sub.v:260)
+[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros.in[12]. (/home/efx/hdd/efinity_company_projects/4aff299aaa/rtl/add-sub.v:260)
+[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros.in[11]. (/home/efx/hdd/efinity_company_projects/4aff299aaa/rtl/add-sub.v:260)
 [EFX-0266 INFO] Module Instance 'as1_1' input pin 'op_add' is tied to constant (=1).
 [EFX-0266 INFO] Module Instance 'as1_2' input pin 'op_add' is tied to constant (=1).
 [EFX-0266 INFO] Module Instance 'as1_3' input pin 'op_add' is tied to constant (=1).
@@ -287,66 +281,415 @@
 [EFX-0266 INFO] Module Instance 'm4_3' input pin 'a[14]' is tied to constant (=0).
 [EFX-0266 INFO] Module Instance 'm4_3' input pin 'a[15]' is tied to constant (=0).
 [EFX-0266 INFO] Module Instance 'm4_3' input pin 'a[16]' is tied to constant (=1).
-[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 1s CPU user time : 0s CPU sys time : 0s MEM : 141476KB)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 169252KB)
 [EFX-0000 INFO] ... NameSpace init begin
-[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 141476KB)
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 169252KB)
 [EFX-0000 INFO] ... Mapping design "top"
 [EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 142872KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 170704KB)
 [EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 142872KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 170704KB)
 [EFX-0000 INFO] ... Hierarchical pre-synthesis "FloatingCompare" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "FloatingCompare" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 142872KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "FloatingCompare" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 170704KB)
 [EFX-0000 INFO] ... Hierarchical pre-synthesis "mantissa_normalizer" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "mantissa_normalizer" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 142872KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "mantissa_normalizer" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 170704KB)
 [EFX-0000 INFO] ... Hierarchical pre-synthesis "add_sub" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "add_sub" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 143128KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "add_sub" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 170704KB)
 [EFX-0000 INFO] ... Hierarchical pre-synthesis "buff_as" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "buff_as" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 143128KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "buff_as" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 170704KB)
 [EFX-0000 INFO] ... Hierarchical pre-synthesis "mul" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "mul" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 144424KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "mul" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 172004KB)
 [EFX-0000 INFO] ... Hierarchical pre-synthesis "buff_mul" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "buff_mul" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 144424KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "buff_mul" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 172004KB)
 [EFX-0000 INFO] ... Hierarchical pre-synthesis "dct_core" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "dct_core" end (Real time : 2s CPU user time : 2s CPU sys time : 0s MEM : 213324KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "dct_core" end (Real time : 1s CPU user time : 1s CPU sys time : 0s MEM : 230444KB)
 [EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_top" begin
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_top" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 213324KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_top" end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 230444KB)
 [EFX-0000 INFO] ... Hierarchical pre-synthesis "top" begin
-[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 558 flops.
-[EFX-0000 INFO] ... Hierarchical pre-synthesis "top" end (Real time : 8s CPU user time : 8s CPU sys time : 0s MEM : 283232KB)
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 326 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "top" end (Real time : 2s CPU user time : 4s CPU sys time : 0s MEM : 289404KB)
 [EFX-0000 INFO] ... Flat optimizations begin
-[EFX-0000 INFO] ... Flat optimizations end (Real time : 1s CPU user time : 9s CPU sys time : 0s MEM : 287852KB)
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 5s CPU sys time : 0s MEM : 297460KB)
 [EFX-0000 INFO] ... Flat synthesis begin
-[EFX-0000 INFO] ... Flat synthesis end (Real time : 1s CPU user time : 10s CPU sys time : 0s MEM : 287852KB)
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 5s CPU sys time : 0s MEM : 297460KB)
 [EFX-0000 INFO] ... Flat optimizations begin
-[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 11s CPU sys time : 0s MEM : 287852KB)
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 6s CPU sys time : 0s MEM : 297460KB)
 [EFX-0000 INFO] ... Check and break combinational loops begin
-[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 11s CPU sys time : 0s MEM : 287852KB)
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 1s CPU user time : 6s CPU sys time : 0s MEM : 297460KB)
 [EFX-0000 INFO] ... Sequential Optimization begin
-[EFX-0000 INFO] ... Clock Network 'clk' with 25767 loads will be considered for sequential optimization.
-[EFX-0000 INFO] ... Clock Network 'jtag_inst1_TCK' with 3727 loads will be considered for sequential optimization.
-[EFX-0000 INFO] ... Sequential Optimization deduced 9065 equivalent points.
-[EFX-0000 INFO] ... Sequential Optimization end (Real time : 101s CPU user time : 73s CPU sys time : 0s MEM : 763276KB)
+[EFX-0000 INFO] ... Clock Network 'clk' with 29506 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network 'jtag_inst1_TCK' with 4909 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 3907 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 84s CPU user time : 93s CPU sys time : 0s MEM : 814888KB)
 [EFX-0000 INFO] ... Setup for logic synthesis begin
-[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 2s CPU user time : 73s CPU sys time : 0s MEM : 764092KB)
+[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 1s CPU user time : 93s CPU sys time : 0s MEM : 815448KB)
 [EFX-0000 INFO] ... LUT mapping begin
-[EFX-0000 INFO] ... LS, strategy: 3, nd: 16903, ed: 55605, lv: 8, pw: 46530.35
-[EFX-0000 INFO] ... LUT mapping end (Real time : 72s CPU user time : 111s CPU sys time : 0s MEM : 767152KB)
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 11900, ed: 38668, lv: 8, pw: 43249.64
+[EFX-0000 INFO] ... LUT mapping end (Real time : 26s CPU user time : 119s CPU sys time : 0s MEM : 817196KB)
 [EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
-[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 2s CPU user time : 112s CPU sys time : 0s MEM : 767972KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 120s CPU sys time : 0s MEM : 819068KB)
 [EFX-0000 INFO] ... Postmap Retiming Optimization begin
-[EFX-0000 INFO] ... Clock Network 'clk~clk' with 22773 loads will be considered for retiming optimization.
-[EFX-0000 INFO] ... Clock Network 'jtag_inst1_TCK~jtag_inst1_TCK' with 3727 loads will be considered for retiming optimization.
-[EFX-0000 INFO] ... Performed 7 retime moves.
-[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 83s CPU user time : 159s CPU sys time : 0s MEM : 933140KB)
+[EFX-0000 INFO] ... Clock Network 'clk~clk' with 28919 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network 'jtag_inst1_TCK~jtag_inst1_TCK' with 4909 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 1 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 79s CPU user time : 198s CPU sys time : 0s MEM : 1014372KB)
 [EFX-0000 INFO] ... Post-Map Verilog Writer begin
-[EFX-0000 INFO] ... Post-Map Verilog Writer end (Real time : 1s CPU user time : 165s CPU sys time : 1s MEM : 933140KB)
+[EFX-0000 INFO] ... Post-Map Verilog Writer end (Real time : 0s CPU user time : 202s CPU sys time : 0s MEM : 1014612KB)
 [EFX-0000 INFO] Resource Summary 
 [EFX-0000 INFO] =============================== 
-[EFX-0000 INFO] EFX_ADD         : 	4363
-[EFX-0000 INFO] EFX_LUT4        : 	26755
+[EFX-0000 INFO] EFX_ADD         : 	2270
+[EFX-0000 INFO] EFX_LUT4        : 	24904
 [EFX-0000 INFO] EFX_MULT        : 	20
-[EFX-0000 INFO] EFX_FF          : 	27436
-[EFX-0000 INFO] EFX_RAM_5K      : 	323
+[EFX-0000 INFO] EFX_FF          : 	33692
+[EFX-0000 INFO] EFX_RAM_5K      : 	428
+[EFX-0000 INFO] EFX_GBUFCE      : 	2
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 15, 2025 17:51:54
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/home/dev/Downloads/efinity/2024.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] undeclared symbol 'la_capture_mask', assumed default net type 'wire' (VERI-2561) (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:4500)
+[EFX-0012 VERI-INFO] undeclared symbol 'next_segment_pointer_eq', assumed default net type 'wire' (VERI-2561) (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:4869)
+[EFX-0012 VERI-INFO] undeclared symbol 'next_segment_msb_xor', assumed default net type 'wire' (VERI-2561) (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:4870)
+[EFX-0011 VERI-WARNING] port 'probe32' remains unconnected for this instance (VERI-1927) (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:228)
+[EFX-0012 VERI-INFO] compiling module 'edb_top' (VERI-1018) (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:10)
+[EFX-0012 VERI-INFO] compiling module 'edb_la_top_renamed_due_excessive_length_1' (VERI-1018) (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:601)
+[EFX-0012 VERI-INFO] compiling module 'edb_adbg_crc32' (VERI-1018) (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:302)
+[EFX-0012 VERI-INFO] compiling module 'compare_unit(WIDTH=11'b0100,PIPE=1)' (VERI-1018) (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:5599)
+[EFX-0012 VERI-INFO] compiling module 'compare_unit(WIDTH=11'b0110,PIPE=1)' (VERI-1018) (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:5599)
+[EFX-0012 VERI-INFO] compiling module 'compare_unit(WIDTH=11'b0111,PIPE=1)' (VERI-1018) (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:5599)
+[EFX-0012 VERI-INFO] compiling module 'compare_unit(WIDTH=11'b01000,PIPE=1)' (VERI-1018) (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:5599)
+[EFX-0012 VERI-INFO] compiling module 'compare_unit(WIDTH=11'b011000,PIPE=1)' (VERI-1018) (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:5599)
+[EFX-0012 VERI-INFO] compiling module 'compare_unit(WIDTH=11'b0100000,PIPE=1)' (VERI-1018) (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:5599)
+[EFX-0012 VERI-INFO] compiling module 'compare_unit(WIDTH=11'b01,PIPE=1)' (VERI-1018) (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:5599)
+[EFX-0012 VERI-INFO] compiling module 'trigger_unit(WIDTH=32'b0100000,PIPE=1)' (VERI-1018) (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:5804)
+[EFX-0012 VERI-INFO] compiling module 'trigger_skipper' (VERI-1018) (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:5929)
+[EFX-0012 VERI-INFO] compiling module 'la_biu(CAPTURE_WIDTH=32'b011101101)' (VERI-1018) (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:4946)
+[EFX-0012 VERI-INFO] compiling module 'fifo_with_read(DATA_WIDTH=32'b011101110)' (VERI-1018) (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:4688)
+[EFX-0012 VERI-INFO] compiling module 'fifo_address_trancode_unit' (VERI-1018) (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:4638)
+[EFX-0012 VERI-INFO] compiling module 'edb_simple_dual_port_ram(DATA_WIDTH=32'b011101110,ADDR_WIDTH=10,RAM_INIT_FILE="")' (VERI-1018) (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:511)
+[EFX-0012 VERI-INFO] extracting RAM for identifier 'ram' (VERI-2571) (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:526)
+[EFX-0012 VERI-INFO] compiling module 'debug_hub' (VERI-1018) (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:380)
+[EFX-0011 VERI-WARNING] input port 'probe32[0]' remains unconnected for this instance (VDB-1053) (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:176)
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (/home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (/home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (/home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (/home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (/home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (/home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (/home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (/home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (/home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (/home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (/home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (/home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (/home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (/home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (/home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (/home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (/home/dev/Downloads/efinity/2024.2/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0200 WARNING] Removing redundant signal : compared_in[0]. (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:5605)
+[EFX-0200 WARNING] Removing redundant signal : mask_in[0]. (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:5606)
+[EFX-0200 WARNING] Removing redundant signal : trigger_in. (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:5816)
+[EFX-0677 INFO] ... Memory 'ram' is not initialized, assuming empty initial contents. (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:526)
+[EFX-0200 WARNING] Removing redundant signal : din[237]. (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:4701)
+[EFX-0200 WARNING] Removing redundant signal : trig_out. (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:4982)
+[EFX-0200 WARNING] Removing redundant signal : trig_out_ack. (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:4983)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:1134)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:1136)
+[EFX-0200 WARNING] Removing redundant signal : bscan_SEL. (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:1137)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:1141)
+[EFX-0200 WARNING] Removing redundant signal : trig_in_ack. (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:1152)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[31]. (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:3566)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[30]. (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:3566)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[29]. (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:3566)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[28]. (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:3566)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[27]. (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:3566)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[26]. (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:3566)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[25]. (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:3566)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[24]. (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:3566)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[23]. (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:3566)
+[EFX-0266 INFO] Module Instance 'la0' input pin 'trig_in' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'la0' input pin 'trig_out_ack' is tied to constant (=0).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe32[0]'. (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:176)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe33[0]'. (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:176)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe34[0]'. (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:176)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe35[0]'. (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:176)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe36[0]'. (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:176)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe37[0]'. (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:176)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe38[0]'. (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:176)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe39[0]'. (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:176)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe40[0]'. (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:176)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe41[0]'. (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:176)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 308540KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 308540KB)
+[EFX-0000 INFO] ... Mapping design "edb_top"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_adbg_crc32" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_adbg_crc32" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 308540KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b0100,PIPE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b0100,PIPE=1)" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 308540KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b0110,PIPE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b0110,PIPE=1)" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 308540KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b0111,PIPE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b0111,PIPE=1)" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 308540KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01000,PIPE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01000,PIPE=1)" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 308540KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b011000,PIPE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b011000,PIPE=1)" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 308540KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b0100000,PIPE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b0100000,PIPE=1)" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 308540KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01,PIPE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "compare_unit(WIDTH=11'b01,PIPE=1)" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 308540KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_unit(WIDTH=32'b0100000,PIPE=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_unit(WIDTH=32'b0100000,PIPE=1)" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 308540KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_skipper" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_skipper" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 308540KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_address_trancode_unit" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_address_trancode_unit" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 308540KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_simple_dual_port_ram(DATA_WIDTH=32'b011101110,ADDR_WIDTH=10,RAM_INIT_FILE="")" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_simple_dual_port_ram(DATA_WIDTH=32'b011101110,ADDR_WIDTH=10,RAM_INIT_FILE="")" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 308540KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_with_read(DATA_WIDTH=32'b011101110)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo_with_read(DATA_WIDTH=32'b011101110)" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 308540KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "la_biu(CAPTURE_WIDTH=32'b011101101)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "la_biu(CAPTURE_WIDTH=32'b011101101)" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 308540KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_la_top_renamed_due_excessive_length_1" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_la_top_renamed_due_excessive_length_1" end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 308540KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "debug_hub" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "debug_hub" end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 308540KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_top" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 129 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_top" end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 308540KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 308540KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 308540KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 308540KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 308540KB)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network 'la0_clk' with 2000 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network 'bscan_TCK' with 979 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 279 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 11s CPU user time : 12s CPU sys time : 0s MEM : 308540KB)
+[EFX-0000 INFO] ... Setup for logic synthesis begin
+[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 0s CPU user time : 12s CPU sys time : 0s MEM : 308540KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 2381, ed: 7472, lv: 8, pw: 4466.01
+[EFX-0000 INFO] ... LUT mapping end (Real time : 8s CPU user time : 20s CPU sys time : 0s MEM : 308540KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 20s CPU sys time : 0s MEM : 308540KB)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network 'la0_clk~la0_clk' with 2000 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network 'bscan_TCK~bscan_TCK' with 979 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 9s CPU user time : 29s CPU sys time : 0s MEM : 308540KB)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_DRCK is unconnected and will be removed. (VDB-8003) (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:13)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_RUNTEST is unconnected and will be removed. (VDB-8003) (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:15)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_TMS is unconnected and will be removed. (VDB-8003) (/home/dev/Vicharak/DCT/dct_uart/work_dbg/debug_top.v:20)
+[EFX-0012 VERI-INFO] Found 3 warnings in the post-synthesis netlist. 
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	155
+[EFX-0000 INFO] EFX_LUT4        : 	2366
+[EFX-0000 INFO] EFX_FF          : 	2970
+[EFX-0000 INFO] EFX_RAM_5K      : 	48
+[EFX-0000 INFO] EFX_GBUFCE      : 	2
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 15, 2025 17:52:23
+///////////////////////////////////
+
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0200 WARNING] Removing redundant signal : A[31]. (/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v:230)
+[EFX-0200 WARNING] Removing redundant signal : B[31]. (/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v:231)
+[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros[4]. (/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v:259)
+[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros[3]. (/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v:259)
+[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros[2]. (/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v:259)
+[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros[1]. (/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v:259)
+[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros[0]. (/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v:259)
+[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros.in[23]. (/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v:260)
+[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros.in[22]. (/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v:260)
+[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros.in[21]. (/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v:260)
+[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros.in[20]. (/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v:260)
+[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros.in[19]. (/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v:260)
+[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros.in[18]. (/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v:260)
+[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros.in[17]. (/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v:260)
+[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros.in[16]. (/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v:260)
+[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros.in[15]. (/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v:260)
+[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros.in[14]. (/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v:260)
+[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros.in[13]. (/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v:260)
+[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros.in[12]. (/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v:260)
+[EFX-0200 WARNING] Removing redundant signal : count_leading_zeros.in[11]. (/home/dev/Vicharak/DCT/dct_uart/rtl/add-sub.v:260)
+[EFX-0266 INFO] Module Instance 'as1_1' input pin 'op_add' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'as1_2' input pin 'op_add' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'as1_3' input pin 'op_add' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'as1_4' input pin 'op_add' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'as1_5' input pin 'op_add' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'as1_6' input pin 'op_add' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'as1_7' input pin 'op_add' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'as1_8' input pin 'op_add' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'as2_1' input pin 'op_add' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'as2_2' input pin 'op_add' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'as2_3' input pin 'op_add' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'as2_4' input pin 'op_add' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'as2_5' input pin 'op_add' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'as2_6' input pin 'op_add' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'as2_7' input pin 'op_add' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'as3_1' input pin 'op_add' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'as3_2' input pin 'op_add' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'as3_4' input pin 'op_add' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'as3_5' input pin 'op_add' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'm4_1' input pin 'a[0]' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'm4_1' input pin 'a[1]' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'm4_1' input pin 'a[2]' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'm4_1' input pin 'a[3]' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'm4_1' input pin 'a[4]' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'm4_1' input pin 'a[5]' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'm4_1' input pin 'a[6]' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'm4_1' input pin 'a[7]' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'm4_1' input pin 'a[8]' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'm4_1' input pin 'a[9]' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'm4_1' input pin 'a[10]' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'm4_1' input pin 'a[11]' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'm4_1' input pin 'a[12]' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'm4_1' input pin 'a[13]' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'm4_1' input pin 'a[14]' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'm4_1' input pin 'a[15]' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'm4_1' input pin 'a[16]' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'm4_1' input pin 'a[17]' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'm4_1' input pin 'a[18]' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'm4_1' input pin 'a[19]' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'm4_1' input pin 'a[20]' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'm4_1' input pin 'a[21]' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'm4_1' input pin 'a[22]' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'm4_1' input pin 'a[23]' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'm4_1' input pin 'a[24]' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'm4_1' input pin 'a[25]' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'm4_1' input pin 'a[26]' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'm4_1' input pin 'a[27]' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'm4_1' input pin 'a[28]' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'm4_1' input pin 'a[29]' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'm4_1' input pin 'a[30]' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'm4_1' input pin 'a[31]' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'm4_2' input pin 'a[0]' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'm4_2' input pin 'a[1]' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'm4_2' input pin 'a[2]' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'm4_2' input pin 'a[3]' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'm4_2' input pin 'a[4]' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'm4_2' input pin 'a[5]' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'm4_2' input pin 'a[6]' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'm4_2' input pin 'a[7]' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'm4_2' input pin 'a[8]' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'm4_2' input pin 'a[9]' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'm4_2' input pin 'a[10]' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'm4_2' input pin 'a[11]' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'm4_2' input pin 'a[12]' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'm4_2' input pin 'a[13]' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'm4_2' input pin 'a[14]' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'm4_2' input pin 'a[15]' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'm4_2' input pin 'a[16]' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'm4_2' input pin 'a[17]' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'm4_2' input pin 'a[18]' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'm4_2' input pin 'a[19]' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'm4_2' input pin 'a[20]' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'm4_2' input pin 'a[21]' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'm4_2' input pin 'a[22]' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'm4_2' input pin 'a[23]' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'm4_2' input pin 'a[24]' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'm4_2' input pin 'a[25]' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'm4_2' input pin 'a[26]' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'm4_2' input pin 'a[27]' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'm4_2' input pin 'a[28]' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'm4_2' input pin 'a[29]' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'm4_2' input pin 'a[30]' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'm4_2' input pin 'a[31]' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'm4_3' input pin 'a[0]' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'm4_3' input pin 'a[1]' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'm4_3' input pin 'a[2]' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'm4_3' input pin 'a[3]' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'm4_3' input pin 'a[4]' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'm4_3' input pin 'a[5]' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'm4_3' input pin 'a[6]' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'm4_3' input pin 'a[7]' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'm4_3' input pin 'a[8]' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'm4_3' input pin 'a[9]' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'm4_3' input pin 'a[10]' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'm4_3' input pin 'a[11]' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'm4_3' input pin 'a[12]' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'm4_3' input pin 'a[13]' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'm4_3' input pin 'a[14]' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'm4_3' input pin 'a[15]' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'm4_3' input pin 'a[16]' is tied to constant (=1).
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 308732KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 308732KB)
+[EFX-0000 INFO] ... Mapping design "top"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 308732KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 308732KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "FloatingCompare" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "FloatingCompare" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 308732KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "mantissa_normalizer" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "mantissa_normalizer" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 308732KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "add_sub" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "add_sub" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 308732KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "buff_as" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "buff_as" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 308732KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "mul" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "mul" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 308732KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "buff_mul" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "buff_mul" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 308732KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "dct_core" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "dct_core" end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 308732KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_top" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_top" end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 308732KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "top" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 326 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "top" end (Real time : 2s CPU user time : 3s CPU sys time : 0s MEM : 308732KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 4s CPU sys time : 0s MEM : 308732KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 4s CPU sys time : 0s MEM : 308732KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 4s CPU sys time : 0s MEM : 308732KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 4s CPU sys time : 0s MEM : 308732KB)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network 'clk' with 16099 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network 'jtag_inst1_TCK' with 972 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 3813 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 61s CPU user time : 67s CPU sys time : 0s MEM : 485160KB)
+[EFX-0000 INFO] ... Setup for logic synthesis begin
+[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 0s CPU user time : 68s CPU sys time : 0s MEM : 485708KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 12118, ed: 40687, lv: 8, pw: 28362.74
+[EFX-0000 INFO] ... LUT mapping end (Real time : 40s CPU user time : 107s CPU sys time : 0s MEM : 489012KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 107s CPU sys time : 0s MEM : 489216KB)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network 'clk~clk' with 15582 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network 'jtag_inst1_TCK~jtag_inst1_TCK' with 972 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 1 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 56s CPU user time : 163s CPU sys time : 0s MEM : 594164KB)
+[EFX-0000 INFO] ... Post-Map Verilog Writer begin
+[EFX-0000 INFO] ... Post-Map Verilog Writer end (Real time : 0s CPU user time : 165s CPU sys time : 0s MEM : 594764KB)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	2323
+[EFX-0000 INFO] EFX_LUT4        : 	14461
+[EFX-0000 INFO] EFX_MULT        : 	20
+[EFX-0000 INFO] EFX_FF          : 	16417
+[EFX-0000 INFO] EFX_RAM_5K      : 	48
 [EFX-0000 INFO] EFX_GBUFCE      : 	2
 [EFX-0000 INFO] =============================== 
